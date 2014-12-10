@@ -7,7 +7,7 @@ nodes {
     id: "53c6de6a6533397c16008109"
   }
   index: 0
-  text: "Let me get this striaght, so you were trained by legends McCoy Pauley and Bobby Quine when you were 22? How did i not know this about you before, Herr Case?"
+  text: "Let me get this striaght, so you were trained by legends McCoy Pauley and Bobby Quine when you were 22? How did I not know this about you before, Herr Case?"
   branches {
     responseText: "It wasn\'t as illustrious as it sounds..."
     nextNodeIndex: 1
@@ -39,7 +39,7 @@ nodes {
     id: "53c6e3536533397c16008173"
   }
   index: 2
-  text: "I have. All I know is that there was a cowboy who tried to fence something in Amsterdam. Turned out, the thing he was trying to fence came from a run and belonged to his employers. No one knows how this was discovered, but everyone is surprised ot hear that he lived. Most people who make that mistake don\'t live to run again."
+  text: "I have. All I know is that there was a cowboy who tried to fence something in Amsterdam. Turned out, the thing he was trying to fence came from a run and belonged to his employers. No one knows how this was discovered, but everyone is surprised to hear that he lived. Most people who make that mistake don\'t live to run again."
   branches {
     responseText: ""
     nextNodeIndex: 3
@@ -129,7 +129,7 @@ nodes {
     id: "53c6e5e66533397c160081c3"
   }
   index: 8
-  text: "Nearly impossible to conduct business here in the Sprawl of Japan with der schiss."
+  text: "Nearly impossible to conduct business here in Sprawl of Japan with der schiss."
   branches {
     responseText: "After being examined, poked, prodded, and admired for the expertise with which I\'d been maimed by those in the black clinics, I was broke."
     nextNodeIndex: 9

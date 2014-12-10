@@ -54,7 +54,7 @@ nodes {
     id: "53bef53b366262c017001314"
   }
   index: 1
-  text: "{{GM}}Ratz\'s Russian military, seven-function force feedback prosthesis whines as he reaches for another mug.{{/GM}}\n\n{{CC}}Chuckles{{/CC}}You\'re too much the artiste, Herr Case."
+  text: "{{GM}}Ratz\'s Russian military, seven-function force feedback prosthesis whines as he reaches for another mug.{{/GM}}\n\n{{CC}}Chuckles{{/CC}} You\'re too much the artiste, Herr Case. You are the artist of the...slightly funny deal."
   branches {
     responseText: "Somebody\'s gotta be funny around here. Sure as fuck isn\'t you."
     nextNodeIndex: 2
