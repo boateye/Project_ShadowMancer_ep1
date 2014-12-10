@@ -76,7 +76,7 @@ nodes {
     id: "5467dead65636228090039cf"
   }
   index: 4
-  text: "{{GM}}The woman directs youir attention to the display case of shurikens that you neglected on your way in.{{/GM}}"
+  text: "{{GM}}The woman directs your attention to the display case of shurikens that you neglected on your way in.{{/GM}}"
   branches {
     responseText: "I have no idea how I missed those, thanks."
     actions {

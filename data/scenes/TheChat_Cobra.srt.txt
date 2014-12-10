@@ -85,6 +85,39 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Delete Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "53c6ee826533397c1600839a"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "5488c01e6563620c10007736"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -302,7 +335,7 @@ characters {
   }
   lod: 0
   character_instance {
-    prefab_name: "Seattle:Gangers/HumanMaleGangerSkullMask"
+    prefab_name: "Seattle:Core/HumanMale"
     character_sheet_id: "AGChemie_Cyberzombie_Lv1"
     character_mod {
       stats {
@@ -338,13 +371,17 @@ characters {
       vulnerabilities {
       }
     }
+    equipment {
+      prefab_name: "SamuraiTrenchcoat"
+    }
     team_id: "Civilians"
     char_name: "Lonny Zone"
     pc_spawn_number: -1
     hiring_type: HiringType_None
     portrait {
-      filename: "npc_humanmale_baronsamedi"
+      filename: "npc_humanmale_gino"
     }
+    portrait_code_override: "s2h1c4b0t0"
     karma: 177
     hiring_cost_override: 1000
   }
@@ -354,6 +391,12 @@ goals {
   type: GoalType_Primary
   status: GoalStatus_Hidden
   description: "Wage is probably the one who put a hit out on you. Lonny Zone might know where he is."
+}
+goals {
+  name: "Go Home."
+  type: GoalType_Primary
+  status: GoalStatus_Hidden
+  description: "Wage and his joeboys can wait until tomorrow."
 }
 worldMapLocation {
   filename: ""

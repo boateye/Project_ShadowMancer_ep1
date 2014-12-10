@@ -38,7 +38,7 @@ char_name: "Lonny Zone"
 pc_spawn_number: -1
 hiring_type: HiringType_None
 portrait {
-  filename: "npc_humanmale_baronsamedi"
+  filename: "npc_humanmale_gino"
 }
 karma: 177
 hiring_cost_override: 1000

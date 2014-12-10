@@ -20,9 +20,9 @@ nodes {
     id: "53aa808b6533395c1d006dff"
   }
   index: 1
-  text: "{{GM}}Something seemed a bit off about your memory of \"Screaming Fist.\" However, you can\'t quite put a finger on it. Armitage interrupts your attempts to fill in your memory holes.{{/GM}}\n\n\"I was there, Case; I was there when they invented your kind.\""
+  text: "{{GM}}Something seemed a bit off about your memory of \"Screaming Fist.\" However, you can\'t quite put a finger on it. Armitage interrupts your attempts to fill in your memory holes.{{/GM}}\n\n\"I was there, Case; I was there when they invented your kind.\"\n\n{{GM}}You start to shiver.{{/GM}}"
   branches {
-    responseText: "You got zip to do with me and my kind, buddy. "
+    responseText: "You\'ve got zip to do with me and my kind, buddy. "
     nextNodeIndex: 2
   }
   branches {
@@ -155,7 +155,7 @@ nodes {
     id: "54802340656362f820005aec"
   }
   index: 7
-  text: "What would you say if I told you we could correct your neural damage, Case?\n\n{{GM}}Armitage suddenly looks as if he\'s carved form a block of metal. Intert, and enormously heavy. A statue. You knew it was a dream, and that you\'d soon wake. Armitage wouldn\'t speak again. Case\'s dreams always ended in freezeframes, and now this one was over. {{/GM}}"
+  text: "What would you say if I told you we could correct your neural damage, Case?\n\n{{GM}}Armitage suddenly looks as if he\'s carved from a block of metal. Intert, and enormously heavy. A statue. You knew it was a dream, and that you\'d soon wake. Armitage wouldn\'t speak again. Case\'s dreams always ended in freezeframes, and now this one was over. {{/GM}}"
   branches {
     responseText: ""
     nextNodeIndex: 8
