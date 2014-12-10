@@ -1,0 +1,80 @@
+idRef {
+  id: "53db0218366262101a007f1f"
+}
+ui_name: "TheChat_Linda"
+nodes {
+  idRef {
+    id: "53db02f9366262101a007f2d"
+  }
+  index: 0
+  text: "{{GM}}Turns to the woman who entered{{/GM}}\n\nOi, I already told you that we\'re drekking clos...Oh, it\'s you."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53b79887366262b80d00440f"
+  }
+}
+nodes {
+  idRef {
+    id: "53dc8b9c366262500b004d4a"
+  }
+  index: 1
+  text: "{{GM}}You turn to see a dark haired woman with olive skin, gray eyes smudged with black paintstick. Her eyes are alert, and shifting. Scanning for where she can get her next hit.{{/GM}}\n\nHey. Case, good buddy...I been looking for you, man."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d20375653339c40a003970"
+  }
+  actions {
+    ops {
+      functionName: "Order Actor to Move To (Point)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53d20375653339c40a003970"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "53dd72e136626250170001da"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "End Current Team Round"
+    }
+  }
+}
+roots {
+  nextNodeIndex: 0
+}

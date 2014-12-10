@@ -1,0 +1,222 @@
+idRef {
+  id: "539945556533391c1a006f68"
+}
+ui_name: "Meeting Armitage"
+nodes {
+  idRef {
+    id: "539a500e6533393c03007f1d"
+  }
+  index: 0
+  text: "{{GM}}A sturdy looking man in dark glasses, and wet, cropped, brown hair from his recent shower is eying you. He exudes business and intelligence, but he\'s not afraid to carry a big stick, just in case. He greets you like he knows you, but you don\'t recall ever meeting him before.{{/GM}}\n\n$(l.name)."
+  branches {
+    responseText: "Armitage."
+    nextNodeIndex: 1
+  }
+  branches {
+    responseText: "Sheperd."
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a55666533393c03008125"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a560a6533393c0300816d"
+  }
+  index: 2
+  text: "You don\'t remember me, do you?"
+  branches {
+    responseText: "Can\'t say that I do."
+    nextNodeIndex: 3
+  }
+  branches {
+    responseText: "You\'re the man who wants to kill me."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "You\'re thatguywiththeglasses, right?"
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a57b46533393c03008189"
+  }
+  index: 3
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a57426533393c0300817c"
+  }
+  index: 4
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a56e06533393c0300817a"
+  }
+  index: 5
+  text: "Not quite...Do you remember the war?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a57a06533393c03008186"
+  }
+  index: 6
+  text: "Then again, you\'re probably too young to remember the war.\n\nLeningrad, Kiev, Siberia. We invented you in Siberia, $(l.name). The \"Screaming Fist\"."
+  branches {
+    responseText: "The fuck\'s a \"Screaming Fist\"?"
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "Some kind of run, wasn\'t it?"
+    nextNodeIndex: 8
+  }
+  branches {
+    responseText: "Didn\'t Rocky beat him up before facing Ivan Drago?"
+    nextNodeIndex: 11
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a59356533393c03008198"
+  }
+  index: 7
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a58de6533393c03008196"
+  }
+  index: 8
+  text: "It was a run. We were trying to burn this Russian Nexus with virus programs."
+  branches {
+    responseText: "I remember now...nobody got out."
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a5a076533393c030081a8"
+  }
+  index: 9
+  text: "{{GM}}Sensing an abrupt tension, Armitage looks toward the window overlooking the Tokyo Bay before continuing.{{/GM}}\n\nWell, one unit made it back to Helsinki."
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a5aa46533393c030081ab"
+  }
+  index: 10
+  text: "The prototypes of the programs used to crack industrial banks were developed for Screaming Fist. The basic module was a Nightwing microlight, a matrix deck, a pilot, and a jockey. We were running a virus called Mole. It was the first generation of real intrusion programs."
+  branches {
+    responseText: "Icebreakers. Used to break through a company\'s Intrusion Countermeasures Electronics. It\'s starting to come back to me..."
+    actions {
+      ops {
+        functionName: "Trigger: Run Alternate Trigger"
+        args {
+          call_value {
+            functionName: "Get Map Item (Trigger)"
+            args {
+              string_value: "539f67a23662625c15006e21"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WaitOrNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a59576533393c0300819e"
+  }
+  index: 11
+  text: "Close, this was Russain, too."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+}

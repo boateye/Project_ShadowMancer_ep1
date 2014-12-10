@@ -1,0 +1,74 @@
+prefab_name: "Seattle:Story/JakeArmitage"
+character_sheet_id: "Story_Jake"
+equipment_sheet_id: "Story_Jake"
+character_mod {
+  stats {
+    body: 0
+    quickness: 0
+    strength: 0
+    charisma: 0
+    intelligence: 0
+    willpower: 0
+    essence: 0
+    magic: 0
+    hp: 0
+    ap: 0
+    armor: 0
+    force: 0
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 0
+  }
+  skills {
+    ranged_combat: 0
+    close_combat: 0
+    throwing_weapons: 0
+    spellcasting: 0
+    decking: 0
+    conjuring: 0
+    spirit_summoning: 0
+    drone_control: 0
+    biotech: 0
+    dodge: 0
+    etiquette_corporate: 0
+    etiquette_security: 0
+    etiquette_gang: 0
+    etiquette_paranormal: 0
+    etiquette_socialite: 0
+    etiquette_infected: 0
+    chi_casting: 0
+    drain_resistance: 0
+    drone_combat: 0
+  }
+  specializations {
+    pistol: 0
+    rifle: 0
+    shotgun: 0
+    smg: 0
+    edged: 0
+    unarmed: 0
+    throwing_blades: 0
+    spirit_control: 0
+  }
+  archetypeName: "Guard - Seek And Destroy"
+  attitude: AttitudeAggressive
+  vulnerabilities {
+  }
+}
+team_id: "Shadowrunner"
+char_name: "Jake Armitage"
+pc_spawn_number: -1
+spawn_type: SpawnType_Matrix
+hiring_type: HiringType_Forced
+disable_pickups: true
+portrait {
+  filename: "NPC_HumanMale_JakeArmitage"
+}
+description_bio: "Bad memory, poor sleep habits. Knows the game like no one else."
+karma: 97
+hiring_cost_override: 1200
+hiring_tag: "Jake Armitage during Screaming Fist"

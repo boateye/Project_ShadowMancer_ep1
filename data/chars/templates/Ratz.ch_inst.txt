@@ -1,0 +1,38 @@
+prefab_name: "Seattle:Story/WeaponsDealer"
+character_sheet_id: "BaseCivilian"
+character_mod {
+  stats {
+    body: 0
+    quickness: 0
+    strength: 0
+    charisma: 0
+    intelligence: 0
+    willpower: 0
+    essence: 0
+    hp: 0
+    ap: 0
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 0
+  }
+  skills {
+  }
+  specializations {
+  }
+  vulnerabilities {
+  }
+}
+team_id: "Shadowrunners"
+char_name: "Ratz"
+pc_spawn_number: -1
+hiring_type: HiringType_None
+portrait {
+  filename: "backer_orkmale_jamesherbert_theodorebustergruberman"
+}
+description_bio: "Bartender at Chatsubo ( The Chat)"
+karma: 6
+hiring_cost_override: 3000

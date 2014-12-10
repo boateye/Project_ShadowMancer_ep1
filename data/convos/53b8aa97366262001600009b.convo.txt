@@ -1,0 +1,530 @@
+idRef {
+  id: "53b8aa97366262001600009b"
+}
+ui_name: "TheChat_Ratz"
+nodes {
+  idRef {
+    id: "53b8aab736626200160000a9"
+  }
+  index: 0
+  text: "{{GM}}The metahuman tending the bar is Ratz. His prostetic arm jerks monotonously as he fills a tray of glasses with Kirin. He notices you and smiles, revealing a webwork of teeth and decay.{{/GM}}\n\nGutentag Her Case. Wage was in here earlier, with two joeboys. Maybe some business with you?\n\n{{GM}}The scantily clad woman next to you giggles, and nudges you. Ratz\'s smile widenes.{{/GM}}\n\n\n\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Chat with the bartender"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53bef53b366262c017001314"
+  }
+  index: 1
+  text: "{{GM}}Ratz\'s Russian military, seven-function force feedback prosthesis whines as he reaches for another mug.{{/GM}}\n\n{{CC}}Chuckles{{/CC}}You\'re too much the artiste, Herr Case."
+  branches {
+    responseText: "Somebody\'s gotta be funny around here. Sure as fuck isn\'t you."
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bef680366262c017001317"
+  }
+  index: 2
+  text: "{{GM}}The woman\'s giggle rises an octave{{/GM}}"
+  branches {
+    responseText: "It isn\'t you either, sister. So you vanish, okay? Zone, whom I\'m sure you\'re familiar with, is a close personal friend of mine."
+    nextNodeIndex: 3
+  }
+  branches {
+    responseText: "{{CC}}Snarky{{/CC}} Laugh it up, fuzz-ball."
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 18
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 3
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53b8b36b36626200160000b4"
+  }
+}
+nodes {
+  idRef {
+    id: "53bef784366262c01700131b"
+  }
+  index: 3
+  text: "{{GM}}She looks you in the eye, and makes the softest possible spitting sound while barely moving her lips. She promptly leaves.{{/GM}}"
+  branches {
+    responseText: "Jesus, Ratz, what kind of creepjoint you running here? A man can\'t have a drink."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "She was one pleasant individual."
+    nextNodeIndex: 11
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53b8b36b36626200160000b4"
+  }
+  actions {
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53b8b36b36626200160000b4"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53bf01ca366262c017001480"
+  }
+  index: 4
+  text: "Heh...Zone shows a percentage. You, I let work here for enertainment value.\n\n{{GM}}As you take a swig of your beer in response, one of those silences where hundreds of conversations come to a smiltaneous lull descends upon The Chat. {{/GM}}\n\n\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf02b1366262c017001483"
+  }
+  index: 5
+  text: "{{GM}}Ratz is the first to break the silence.{{/GM}}\n\nAn angel passed."
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf04ce366262c017001490"
+  }
+  index: 6
+  text: "{{GM}} A drunken Australian bellows{{/GM}} \"The Chinese! They bloody invented nerve-splicing. Give me the mainland for a nerve job any day. Fix you right, mate...\""
+  branches {
+    responseText: "Now that...that is so much bullshit."
+    nextNodeIndex: 7
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53bf0ba1366262c01700154f"
+  }
+}
+nodes {
+  idRef {
+    id: "53bf0511366262c0170014bd"
+  }
+  index: 7
+  text: "I saw your girl last night.\n\n{{GM}}He passes you another Kirin.{{/GM}}"
+  branches {
+    responseText: "I don\'t have one."
+    nextNodeIndex: 8
+  }
+  branches {
+    responseText: "It better not be who I think you mean."
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf0569366262c0170014c1"
+  }
+  index: 8
+  text: "It was Miss Linda Lee. \n\n{{GM}}You shake your head in disagreement.{{/GM}}\n\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf0694366262c0170014c4"
+  }
+  index: 9
+  text: "No girl? Nothing? Only biz, friend artiste? Dedication to commerce? \n\nI think I liked you better, with her. You laughed more. Now, some night, you get maybe too artistic; you wind up in the clinic tanks, spare parts."
+  branches {
+    responseText: "{{CC}}Smirk{{/CC}}You\'re breaking my heart, Ratz."
+    actions {
+      ops {
+        functionName: "Fade Camera Out"
+        args {
+          float_value: 2
+        }
+        args {
+          float_value: 0
+        }
+      }
+      ops {
+        functionName: "Fade Camera In"
+        args {
+          float_value: 2
+        }
+        args {
+          float_value: 3
+        }
+      }
+      ops {
+        functionName: "Kill Actor"
+        args {
+          call_value {
+            functionName: "All Actors Within Area"
+            args {
+              call_value {
+                functionName: "Area: Region"
+                args {
+                  call_value {
+                    functionName: "Get Map Item (Region)"
+                    args {
+                      string_value: "53c6d5c36533397c1600801b"
+                    }
+                  }
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "AllOrAny"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "DeathMethod"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Assign Conversation to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (Conversation)"
+            args {
+              string_value: "53c6d3b16533397c16007f5d"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "53b79887366262b80d00440f"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "EnableOrDisable"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Send Event After Delay"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "evnt_Resume"
+            }
+          }
+        }
+        args {
+          float_value: 4.5
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "{{CC}}Chuckle{{/CC}}You have a very selective memory, Ratz."
+    actions {
+      ops {
+        functionName: "Fade Camera Out"
+        args {
+          float_value: 2
+        }
+        args {
+          float_value: 0
+        }
+      }
+      ops {
+        functionName: "Fade Camera In"
+        args {
+          float_value: 2
+        }
+        args {
+          float_value: 3
+        }
+      }
+      ops {
+        functionName: "Assign Conversation to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (Conversation)"
+            args {
+              string_value: "53c6d3b16533397c16007f5d"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Actor)"
+            args {
+              string_value: "53b79887366262b80d00440f"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "EnableOrDisable"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Kill Actor"
+        args {
+          call_value {
+            functionName: "All Actors Within Area"
+            args {
+              call_value {
+                functionName: "Area: Region"
+                args {
+                  call_value {
+                    functionName: "Get Map Item (Region)"
+                    args {
+                      string_value: "53c6d5c36533397c1600801b"
+                    }
+                  }
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "AllOrAny"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "DeathMethod"
+            }
+            args {
+              int_value: 3
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Send Event After Delay"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "evnt_Resume"
+            }
+          }
+        }
+        args {
+          float_value: 4.5
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf0789366262c0170014ec"
+  }
+  index: 10
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53bf0b23366262c017001529"
+  }
+  index: 11
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+}

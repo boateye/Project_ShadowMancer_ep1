@@ -1,0 +1,37 @@
+idRef {
+  id: "539e2f21366262400b006735"
+}
+ui_name: "Helsinki Escapees"
+nodes {
+  idRef {
+    id: "539e2f32366262400b00673b"
+  }
+  index: 0
+  text: "We need to get outta here!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "539bb68b653339a80b0016b9"
+  }
+}
+nodes {
+  idRef {
+    id: "539e2f81366262400b006748"
+  }
+  index: 1
+  text: "Yea, things are getting real hot in here. Lets get back to Helsinki!"
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "539bb696653339a80b0016ba"
+  }
+}
+roots {
+  nextNodeIndex: 0
+}

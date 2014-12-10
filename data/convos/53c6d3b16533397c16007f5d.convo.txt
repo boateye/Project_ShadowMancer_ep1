@@ -1,0 +1,259 @@
+idRef {
+  id: "53c6d3b16533397c16007f5d"
+}
+ui_name: "TheChat_Ratz_Part2"
+nodes {
+  idRef {
+    id: "53c6de6a6533397c16008109"
+  }
+  index: 0
+  text: "Let me get this striaght, so you were trained by legends McCoy Pauley and Bobby Quine when you were 22? How did i not know this about you before, Herr Case?"
+  branches {
+    responseText: "It wasn\'t as illustrious as it sounds..."
+    nextNodeIndex: 1
+  }
+  branches {
+    responseText: "This isn\'t something I just spout out to everyone I meet."
+    nextNodeIndex: 13
+  }
+  branches {
+    responseText: "Because I have a few regrets as to how things went down."
+    nextNodeIndex: 15
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e1e16533397c16008112"
+  }
+  index: 1
+  text: "What do you mean? Don\'t tell me you got greedy, Herr Case."
+  branches {
+    responseText: "You ever hear of the Fall?"
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e3536533397c16008173"
+  }
+  index: 2
+  text: "I have. All I know is that there was a cowboy who tried to fence something in Amsterdam. Turned out, the thing he was trying to fence came from a run and belonged to his employers. No one knows how this was discovered, but everyone is surprised ot hear that he lived. Most people who make that mistake don\'t live to run again."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e3f36533397c16008176"
+  }
+  index: 3
+  text: "Are you telling me that this was you?"
+  branches {
+    responseText: "Drek, Ratz, an astute one, you are."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "I am."
+    nextNodeIndex: 5
+  }
+  branches {
+    responseText: "That\'s about the long and short of it."
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e7ae6533397c160081dd"
+  }
+  index: 4
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e7a96533397c160081d9"
+  }
+  index: 5
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e48e6533397c1600817d"
+  }
+  index: 6
+  text: "Then that means you were injected full of mycotoxins, damaging your nerves."
+  branches {
+    responseText: "I could feel the talent burning from my body. Micron by micron. "
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "Damage was minute, subtle, but utterly effective."
+    nextNodeIndex: 11
+  }
+  branches {
+    responseText: "I hallucinated for thirty hours."
+    nextNodeIndex: 12
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e5966533397c160081a1"
+  }
+  index: 7
+  text: "Then what happened?"
+  branches {
+    responseText: "My assets were liquidated into paper Nuyen. I was novahot."
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e5e66533397c160081c3"
+  }
+  index: 8
+  text: "Nearly impossible to conduct business here in the Sprawl of Japan with der schiss."
+  branches {
+    responseText: "After being examined, poked, prodded, and admired for the expertise with which I\'d been maimed by those in the black clinics, I was broke."
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e71b6533397c160081c6"
+  }
+  index: 9
+  text: "No kidding. Der schiss gets\'s expensive real fast. \n\n{{GM}}Ratz\'s arm whines in agreement{{/GM}}"
+  branches {
+    responseText: "Now I have to sleep in the cheapest of coffins. The kind where you can\'t even see the lights of tokyo because of the glare of the television sky."
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e7de6533397c1600821e"
+  }
+  index: 10
+  text: "Well, I hope it\'s tuned to your favorite channel, because The Chat is over, and I need to clean up the mess those australians left for me."
+  branches {
+    responseText: "{{CC}}Chortle{{/CC}} I\'ll see you around Ratz."
+    actions {
+      ops {
+        functionName: "Send Event"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "evnt_SpawnLindaLee"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "Drek, that was an awful joke."
+    actions {
+      ops {
+        functionName: "Send Event"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "evnt_SpawnLindaLee"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e7cb6533397c160081ec"
+  }
+  index: 11
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e53b6533397c16008182"
+  }
+  index: 12
+  text: "That sounds like one bad trip."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e1b46533397c1600810c"
+  }
+  index: 13
+  text: "You\'ve been coming to The Chat for so long, I should get your stool embroidered with your name on it. IT would say \"Artiste\"."
+  branches {
+    responseText: "Well, this \"Artiste\" sold out."
+    nextNodeIndex: 14
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e2b56533397c16008128"
+  }
+  index: 14
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53c6e1cc6533397c1600810f"
+  }
+  index: 15
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+}

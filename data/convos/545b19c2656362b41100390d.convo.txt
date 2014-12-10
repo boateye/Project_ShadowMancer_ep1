@@ -1,0 +1,136 @@
+idRef {
+  id: "545b19c2656362b41100390d"
+}
+ui_name: "LonnyZone"
+nodes {
+  idRef {
+    id: "5468a24e6563622809003b75"
+  }
+  index: 0
+  text: "{{GM}}Lonny Zone. The Chat\'s resident pimp. He\'s addicted to a brand of Japanese hypnotic called Cloud Dancers, and the droop of his eyelids is the souvenier from his frequent trips. {{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5468b57d6563622809003d04"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: "Whatcha up to, Lonny?"
+    nextNodeIndex: 2
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "5468b78c6563622809003ea3"
+    }
+  }
+  branches {
+    responseText: "Have you seen Wage, tonight?"
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5468b5ce6563622809003d33"
+  }
+  index: 2
+  text: "Watching one of my girls go to work on that sailor over there. She isn\'t as funny as she thinks she is, but she has the rack to make up for it."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5468b5c26563622809003d25"
+  }
+  index: 3
+  text: "{{GM}}Zone Shakes his head.{{/GM}}"
+  branches {
+    responseText: "You sure?"
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5468b5c26563622809003d28"
+  }
+  index: 4
+  text: "{{GM}}He shrugs.{{/GM}}\n\nMaybe in the Namban. Maybe two hours ago.\n"
+  branches {
+    responseText: "He got some joeboys with him? One of them thin, dark hair, maybe a black jacket?"
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5468b5c26563622809003d2b"
+  }
+  index: 5
+  text: "Nah, no one like that. The ones with him were big boys. Graftees.\n\n{{GM}}Zone notices the bulge of your supposedly concealed weapon.{{/GM}}\n\nCobra. You gonna fuck somebody up?\n"
+  branches {
+    responseText: "I\'ll see you Lonny."
+    actions {
+      ops {
+        functionName: "Set Goal Status"
+        args {
+          call_value {
+            functionName: "Get Map Item (Goal)"
+            args {
+              string_value: "Find Wage"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "GoalStatus"
+            }
+            args {
+              int_value: 2
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "TheChase"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

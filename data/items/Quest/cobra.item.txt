@@ -1,0 +1,8 @@
+id: "cobra"
+type: ItemType_QuestItem
+uirep {
+  name: "Cobra"
+  description: "An easily concealable weapon that looks like a cylinder."
+}
+credentials: 0
+sorting_group: "Quest"

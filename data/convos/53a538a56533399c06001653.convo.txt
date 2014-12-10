@@ -1,0 +1,351 @@
+idRef {
+  id: "53a538a56533399c06001653"
+}
+ui_name: "After Flashback Armitage"
+nodes {
+  idRef {
+    id: "53aa7f466533395c1d006df7"
+  }
+  index: 0
+  text: "{{GM}}While taking your exit off of memory lane, and taking that left turn back to reality, you take a swig of your coffee. The decision has not improved since last time.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53aa808b6533395c1d006dff"
+  }
+  index: 1
+  text: "{{GM}}Something seemed a bit off about your memory of \"Screaming Fist.\" However, you can\'t quite put a finger on it. Armitage interrupts your attempts to fill in your memory holes.{{/GM}}\n\n\"I was there, Case; I was there when they invented your kind.\""
+  branches {
+    responseText: "You got zip to do with me and my kind, buddy. "
+    nextNodeIndex: 2
+  }
+  branches {
+    responseText: "{{CC}}Intimidate{{/CC}} You don\'t know me! You\'re rich enough to hire expensive razorgirls to haul my ass up here, is all. "
+    conditions {
+      ops {
+        functionName: "Compare Actor Skill"
+        args {
+          call_value {
+            functionName: "Get Map Item (Player)"
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "BaseOrCurrent"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "ActorSkills"
+            }
+            args {
+              int_value: 18
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 3
+  }
+  branches {
+    responseText: "My kind? I\'m never gonna punch any deck again. Besides, I\'m no jockey now, so I think I\'ll just be going..."
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "548023a0656362f820005b03"
+  }
+  index: 2
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "548023b9656362f820005b07"
+  }
+  index: 3
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53aa83756533395c1d006e21"
+  }
+  index: 4
+  text: "Where to, exactly? That shithole hotel? The streets?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "53aa83c56533395c1d006e26"
+  }
+  index: 5
+  text: "Our profile says that you\'re trying to con the street into killing you when you\'re not looking."
+  branches {
+    responseText: "Woah-woah, profile?"
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5480216c656362f820005ae9"
+  }
+  index: 6
+  text: "We\'ve built up a detailed model. Bought a go-to for each of your aliases and ran the skim through some military software. You\'re suicidal, Case. The model gives you a month on the outside, and your medical projection says you\'ll need a new pancreas inside a year."
+  branches {
+    responseText: "\'We\'?"
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "Who the fuck is this \'We\'?"
+    nextNodeIndex: 14
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54802340656362f820005aec"
+  }
+  index: 7
+  text: "What would you say if I told you we could correct your neural damage, Case?\n\n{{GM}}Armitage suddenly looks as if he\'s carved form a block of metal. Intert, and enormously heavy. A statue. You knew it was a dream, and that you\'d soon wake. Armitage wouldn\'t speak again. Case\'s dreams always ended in freezeframes, and now this one was over. {{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5480244c656362f820005b0c"
+  }
+  index: 8
+  text: "\"What would you say, Case?\""
+  branches {
+    responseText: "I\'d say you\'re full of shit."
+    nextNodeIndex: 9
+  }
+  branches {
+    responseText: "I\'d ask what your terms were."
+    nextNodeIndex: 11
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5480248c656362f820005b32"
+  }
+  index: 9
+  text: ""
+  branches {
+    responseText: "Then I\'d ask what your terms were."
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54802505656362f820005b38"
+  }
+  index: 10
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "548024a1656362f820005b35"
+  }
+  index: 11
+  text: "{{GM}}You glance over the bay, and start shivering.{{/GM}}\n\nMy terms are not very different than what you\'re used to, Case."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5480251c656362f820005b67"
+  }
+  index: 12
+  text: "Let the man get some sleep, Armitage. He\'s coming apart at the seams. "
+  branches {
+    responseText: "{{CC}}To Armitage{{/CC}} Terms, and now. Right. Now."
+    nextNodeIndex: 13
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "548026e4656362f40d0066bc"
+  }
+}
+nodes {
+  idRef {
+    id: "5480256f656362f820005b6a"
+  }
+  index: 13
+  text: "{{GM}}You\'re still shivering. You can\'t seem to stop shivering."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53aba781653339281c0041c9"
+  }
+  actions {
+    ops {
+      functionName: "Autosave Game"
+    }
+    ops {
+      functionName: "End Story With Epilogue"
+      args {
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "54802373656362f820005af1"
+  }
+  index: 14
+  text: ""
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor Has Item"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "HasOrHasNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "coffee"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+}
+roots {
+  responseText: ""
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor Has Item"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "HasOrHasNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "coffee"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 1
+}

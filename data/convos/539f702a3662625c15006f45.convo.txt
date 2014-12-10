@@ -1,0 +1,214 @@
+idRef {
+  id: "539f702a3662625c15006f45"
+}
+ui_name: "Student"
+nodes {
+  idRef {
+    id: "539f70e93662625c15006f4b"
+  }
+  index: 0
+  text: "{{GM}}Without looking up from his textbook, the college-aged student welcomes you.{{/GM}}\n\nHey, Case. You going to your room?"
+  branches {
+    responseText: "Yep."
+    nextNodeIndex: 1
+    onlyOnce: true
+    idRef {
+      id: "53abaaa2653339281c004242"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539f71ae3662625c15006f4e"
+  }
+  index: 1
+  text: "Cool, I\'ll let you in.\n\n{{GM}}Seemingly with the rest of his body frozen, and looking at his book, he jabs a couple times at one of his monitors, and you hear a door unlocking.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53974dca6533396c0100166c"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "Chatted"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53c6e9996533397c160082e7"
+  }
+  index: 2
+  text: "{{GM}}With his eyes still glued to his book, he pipes up one more time.{{/GM}}\n\nOh, there\'s a woman in your room. She claimed to know you, {{GM}}he shrugs{{/GM}} and I think I recognized her, and she was pretty so I let her in. She told me not to tell you that she was here, because she wanted it to be a surprise."
+  branches {
+    responseText: "Funny, I wasn\'t expecting guests."
+    actions {
+      ops {
+        functionName: "Set Goal Status"
+        args {
+          call_value {
+            functionName: "Get Map Item (Goal)"
+            args {
+              string_value: "Meet the woman in your room."
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "GoalStatus"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "Remind me to never tell you my deepest darkest secrets."
+    actions {
+      ops {
+        functionName: "Set Goal Status"
+        args {
+          call_value {
+            functionName: "Get Map Item (Goal)"
+            args {
+              string_value: "Meet the woman in your room."
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "GoalStatus"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "I hate surprises."
+    actions {
+      ops {
+        functionName: "Set Goal Status"
+        args {
+          call_value {
+            functionName: "Get Map Item (Goal)"
+            args {
+              string_value: "Meet the woman in your room."
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "GoalStatus"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "542a63de653339c413004dd6"
+  }
+  index: 3
+  text: "Well, hopefully, this is a pleasant one."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+}

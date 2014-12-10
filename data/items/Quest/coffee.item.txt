@@ -1,0 +1,9 @@
+id: "coffee"
+type: ItemType_QuestItem
+uirep {
+  name: "Coffee"
+  description: "It\'s like tea, but if it tasted like novahot bathwater."
+}
+credentials: 0
+sorting_group: "Quest"
+closeupCaption: "It\'s like tea, but if it tasted like novahot bathwater."

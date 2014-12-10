@@ -1,0 +1,199 @@
+idRef {
+  id: "539770e3653339081a006e1b"
+}
+ui_name: "Coffin Molly"
+nodes {
+  idRef {
+    id: "539a52e66533393c03007fed"
+  }
+  index: 0
+  text: "{{GM}}A woman, dressed in gloveleather black clothes and matching boots that are sinking into the temperfoam floor of your coffin, is staring back at you. It looks like she has been waiting for you.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a53176533393c03008026"
+  }
+  index: 1
+  text: ""
+  branches {
+    responseText: "Who are you?"
+    nextNodeIndex: 2
+    onlyOnce: true
+    idRef {
+      id: "5399395c6533391c1a006e17"
+    }
+  }
+  branches {
+    responseText: "Why are you here?"
+    nextNodeIndex: 3
+    onlyOnce: true
+    idRef {
+      id: "53993adf6533391c1a006e5e"
+    }
+  }
+  branches {
+    responseText: "Who do you work for?"
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a534d6533393c03008030"
+  }
+  index: 2
+  text: "Molly. My name\'s Molly"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a535e6533393c0300803b"
+  }
+  index: 3
+  text: "\"I\'m collecting you for the man I work for. Don\'t worry, he just wants to talk. He doesn\'t want to hurt you."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a535e6533393c0300803e"
+  }
+  index: 4
+  text: "\'Cept that I do sometimes. I reckon that I\'m just wired that way."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a53ba6533393c0300804f"
+  }
+  index: 5
+  text: "A man named Armitage. He just wants to talk. "
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a53ba6533393c03008052"
+  }
+  index: 6
+  text: "Listen, if I put my dart gun away, will you shutup and come easy?"
+  branches {
+    responseText: "Hey, I\'m very easy Ma\'am. Total pushover."
+    nextNodeIndex: 7
+  }
+  branches {
+    responseText: "Why don\'t you find out?"
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a53ba6533393c03008055"
+  }
+  index: 7
+  text: "How disappointing..."
+  branches {
+    responseText: ""
+    actions {
+      ops {
+        functionName: "Send Event"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "Event_GoToArmitage"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "539a53ba6533393c03008058"
+  }
+  index: 8
+  text: "Don\'t tempt me..."
+  branches {
+    responseText: ""
+    actions {
+      ops {
+        functionName: "Send Event"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "Event_GoToArmitage"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Meet the woman in your room."
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+}

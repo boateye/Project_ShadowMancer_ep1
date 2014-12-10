@@ -1,0 +1,6573 @@
+minX: -60
+minZ: -21
+numX: 81
+numZ: 72
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood04"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood03"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff0a363232500d004824"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff10363232500d004826"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff17363232500d004827"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff19363232500d004828"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff1b363232500d004829"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff1e363232500d00482a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff20363232500d00482b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff21363232500d00482c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff27363232500d00482e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff2c363232500d00482f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff31363232500d004830"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff34363232500d004831"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200ff37363232500d004833"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d004839"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d00483b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d00483c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d00483d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d00483e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d00483f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d004840"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d004841"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d004842"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5200fff0363232500d004843"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010130363232500d004863"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010130363232500d004865"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010130363232500d004866"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010247363232500d00487f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010247363232500d004880"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010247363232500d004881"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010247363232500d004882"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201024c363232500d004883"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201024c363232500d004884"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge11"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -2.11
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge12"
+  gridPoint {
+    x: 8
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge13"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge14"
+  gridPoint {
+    x: -2
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 10
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge12"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520102e4363232500d004885"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 0
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520102e9363232500d004886"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -4
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520102f2363232500d004887"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -5.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010354363232500d00488d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "52010376363232500d00488f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010376363232500d004890"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201037a363232500d004891"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201037a363232500d004892"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010380363232500d004894"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010386363232500d004896"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201038b363232500d004897"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201038b363232500d004898"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "52010390363232500d004899"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "52010398363232500d00489b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "52010398363232500d00489c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103b4363232500d00489e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103b7363232500d00489f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103b8363232500d0048a0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -4.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103cd363232500d0048a2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -6.13
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "520103da363232500d0048a3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -5.13
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "520103da363232500d0048a4"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103e5363232500d0048a6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520103f0363232500d0048a7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010406363232500d0048aa"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010406363232500d0048ab"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201041b363232500d0048ac"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010426363232500d0048ad"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201042c363232500d0048af"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010430363232500d0048b1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010471363232500d0048b3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010471363232500d0048b4"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge11"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520104aa363232500d0048b5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge13"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520104b5363232500d0048b6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge11"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520104c8363232500d0048b8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010502363232500d0048b9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 6
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010525363232500d0048ba"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201052b363232500d0048bb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201052c363232500d0048bc"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010535363232500d0048bd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010537363232500d0048be"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201053b363232500d0048bf"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520165ec363232500d0049e5"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: false
+      doorSound: "DoorSlide"
+      doorSoundBundle: "props"
+    }
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door02Mid"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520165fd363232500d0049e7"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: false
+      doorSound: "DoorSlide"
+      doorSoundBundle: "props"
+    }
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicCoffeeTable01"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_appliance_flatscreenTVPlusStand"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_modChair"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -6.73
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "tenements_decor_largeModernPainting02"
+  gridPoint {
+    x: -0.28
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201071f363232500d0048c5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_mailboxes"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_decor_hookah"
+  gridPoint {
+    x: 3.1
+    y: 0.5
+    z: -6.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_wallSpools"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -9.53
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_antiqueCouch"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_W
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicBookshelf"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -9.03
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicDivider"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicDivider"
+  gridPoint {
+    x: 3.31
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52010816363232500d0048c6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicDivider"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201082a363232500d0048c7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicLargeCouch"
+  gridPoint {
+    x: 0.2
+    y: 0
+    z: -8.57
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicShelving02"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_bikeRack"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_brokenTable"
+  gridPoint {
+    x: 8
+    y: 0
+    z: 3.29
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048c9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048ca"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048cb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048cc"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048cd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010888363232500d0048ce"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010891363232500d0048cf"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010891363232500d0048d0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010892363232500d0048d5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010892363232500d0048d6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010892363232500d0048d7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010892363232500d0048d8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010892363232500d0048da"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010894363232500d0048db"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010894363232500d0048dc"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010894363232500d0048dd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201089b363232500d0048e1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201089f363232500d0048e2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520108a7363232500d0048e3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010966363232500d0048e4"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010966363232500d0048e5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010966363232500d0048e6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010966363232500d0048e7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201096b363232500d0048ec"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201096b363232500d0048ed"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201096b363232500d0048ee"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201096b363232500d0048ef"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010973363232500d0048f0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010973363232500d0048f1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010973363232500d0048f2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010973363232500d0048f3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_closet03Storeroom"
+  gridPoint {
+    x: -1.9
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_clutter_woodenCrate"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -3.43
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_bike01"
+  gridPoint {
+    x: 10.88
+    y: 0
+    z: 3.05
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_decor_cardboardBox02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -3.18
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_elLights01"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -8.48
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -3.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52010cb6363232500d0048f6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_rug01"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_hackerDesk01"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52018ff4363232500d004a01"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    jackPoint {
+      LANIdentifier: ""
+      LANEquipment: ""
+    }
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_futuristicOfficeChair01"
+  gridPoint {
+    x: -1.82
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_lighting_standingLamp01"
+  gridPoint {
+    x: -2.8
+    y: 0
+    z: -5.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_lighting_standingLight01"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -8.64
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_rug02"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_appliance_airConditioner01"
+  gridPoint {
+    x: -0.16
+    y: 0.56
+    z: -6.04
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_appliance_floorFan"
+  gridPoint {
+    x: -2.6
+    y: 0
+    z: -4.29
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_clutter_cigarettePile"
+  gridPoint {
+    x: 0.21
+    y: 0
+    z: -6.24
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_dirtyPlate"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash01"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -3.64
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_pileOfJunk01"
+  gridPoint {
+    x: 5.8
+    y: 0.72
+    z: -3.54
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_cardboardBoxes02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_framedPoster03"
+  gridPoint {
+    x: -2.85
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251b363232500d0048f7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251b363232500d0048f8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251b363232500d0048f9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251b363232500d0048fa"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251e363232500d0048fb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201251e363232500d0048fc"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012521363232500d0048fd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012521363232500d0048fe"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -6.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012535363232500d0048ff"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 1
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012550363232500d004900"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012550363232500d004901"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201255f363232500d004902"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201257a363232500d004903"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125b6363232500d004905"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -10.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125ce363232500d004906"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d004908"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d004909"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e1363232500d00490f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125e7363232500d004910"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520125ea363232500d004911"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004912"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004913"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004914"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004915"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004916"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004917"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004918"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012602363232500d004919"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012629363232500d00491c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "52012636363232500d00491d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201263e363232500d00491e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201263f363232500d00491f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201264f363232500d004922"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -14.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012651363232500d004923"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266a363232500d004927"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266a363232500d004928"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266a363232500d004929"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266a363232500d00492a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266a363232500d00492b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201266c363232500d00492c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012671363232500d00492d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012673363232500d00492e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012674363232500d00492f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012675363232500d004930"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004931"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004932"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004933"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004934"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004935"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004936"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004937"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52012687363232500d004938"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d004939"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d00493a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d00493b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d00493d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d00493e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d00493f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268b363232500d004940"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004941"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004942"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004943"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004944"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004945"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004946"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004947"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201268d363232500d004948"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "520129cd363232500d004951"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520129dd363232500d004952"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520129f7363232500d004953"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520129f7363232500d004954"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_modernSink"
+  gridPoint {
+    x: 0.28
+    y: 0
+    z: -16.2
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 0
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "52012a2d363232500d004956"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_airConditioner01"
+  gridPoint {
+    x: 1
+    y: 0.46
+    z: -17.87
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_appliance_furnaceUnit"
+  gridPoint {
+    x: 2
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_appliance_modernShower"
+  gridPoint {
+    x: 4
+    y: 0
+    z: -17.87
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52014045363232500d004959"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_kitchenTrashcan01"
+  gridPoint {
+    x: 6.1
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520141d0363232500d004960"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_appliance_smallFridge"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicDiningTable"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_furniture_plasticChair"
+  gridPoint {
+    x: 9.7
+    y: 0
+    z: -14.9
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "asylum_furniture_plasticChair"
+  gridPoint {
+    x: 9.7
+    y: 0
+    z: -14.1
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5201423c363232500d004961"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_furniture_plasticChair"
+  gridPoint {
+    x: 8.5999994
+    y: 0
+    z: -14.799999
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014246363232500d004962"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_furniture_plasticChair"
+  gridPoint {
+    x: 8.5
+    y: 0
+    z: -14.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014246363232500d004963"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_floorDecoration_rug02"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_wallDecoration_brokenMirror"
+  gridPoint {
+    x: 4.6
+    y: 0
+    z: -14.3
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "asylum_wallDecoration_wallClock"
+  gridPoint {
+    x: 9.4
+    y: -0.15
+    z: -18.34
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "diveBar_wallDecoration_exitSign01"
+  gridPoint {
+    x: -0.42
+    y: 1.55
+    z: -16.02
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_wallDecoration_portrait01"
+  gridPoint {
+    x: 0.7
+    y: 0.56
+    z: -14.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_buildingOrnament_wallPipe01"
+  gridPoint {
+    x: 5.42
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_fragTheKeebs"
+  gridPoint {
+    x: 10.6
+    y: -0.06
+    z: -18.1
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "secretLab_clutter_wallSpeaker"
+  gridPoint {
+    x: 4.2
+    y: 0
+    z: 2.8
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "telestrianEstate_lighting_wallSconce01"
+  gridPoint {
+    x: 5.51
+    y: 1.51
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_wallSpools"
+  gridPoint {
+    x: 10.4
+    y: 0
+    z: -17.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201453b363232500d004964"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge13"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014577363232500d004965"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge13"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201457a363232500d004966"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -12.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014584363232500d004967"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d004968"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d004969"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d00496f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145aa363232500d004970"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145c4363232500d004971"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145c4363232500d004972"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520145c4363232500d004973"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014624363232500d004974"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014624363232500d004975"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014624363232500d004976"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014626363232500d004977"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014626363232500d004978"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014626363232500d004979"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -5
+    y: 0
+    z: -6.1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52014630363232500d00497a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicKingBed"
+  gridPoint {
+    x: -5.8
+    y: 0
+    z: -13.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -6.1
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "52014778363232500d00497b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -6.1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52014778363232500d00497c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52014782363232500d00497d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -5
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52014788363232500d00497e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5201478f363232500d004980"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "5201478f363232500d004981"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014795363232500d004982"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014798363232500d004983"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52014799363232500d004984"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201479a363232500d004985"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -7
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5201479b363232500d004986"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wallDecoration_hangingRug"
+  gridPoint {
+    x: -6.2000003
+    y: 0
+    z: -13.6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520147a0363232500d004987"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_wallDecoration_dreamCatcher"
+  gridPoint {
+    x: -6.1
+    y: 0
+    z: -12.700001
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520147a0363232500d004988"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_clutter_ladder01"
+  gridPoint {
+    x: -5.9
+    y: 0
+    z: -16.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_clutter_paintBuckets01"
+  gridPoint {
+    x: -5.1
+    y: 0
+    z: -15.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "barrens_decor_graffiti08"
+  gridPoint {
+    x: -4.1
+    y: 0
+    z: -15.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520150ae363232500d004989"
+  }
+  lod: 0
+}
+props {
+  name: "diveBar_lighting_tableLamp01"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -14.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "secretLab_furniture_sofa"
+  gridPoint {
+    x: -4.7
+    y: 0
+    z: -15.9
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "diveBar_floorDecoration_rug03"
+  gridPoint {
+    x: -5.9
+    y: 0
+    z: -13.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_lighting_standingLight03"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -7.5
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_wardrobe"
+  gridPoint {
+    x: -5.6
+    y: 0
+    z: -9.4000006
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151ab363232500d00498b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151ab363232500d00498c"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 2
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151b4363232500d00498d"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 0
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151b6363232500d00498e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: -2
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151b8363232500d00498f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 10
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151ba363232500d004990"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151bb363232500d004991"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 14
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151be363232500d004992"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 16
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520151bf363232500d004993"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151c0363232500d004994"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151c5363232500d004995"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151c8363232500d004998"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151c9363232500d004999"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151cb363232500d00499a"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151cc363232500d00499b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151d0363232500d00499e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 3
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a4"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 9
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520151fd363232500d0049a9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049aa"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049ab"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049ac"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049ad"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049ae"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049af"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b4"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_floor_wood02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015209363232500d0049b7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015212363232500d0049b8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015212363232500d0049b9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 8
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201521e363232500d0049ba"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015221363232500d0049bb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201522c363232500d0049bc"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201522c363232500d0049bd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201523b363232500d0049be"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5201523b363232500d0049bf"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -17.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015296363232500d0049c0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520152a0363232500d0049c1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520152a0363232500d0049c2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -16.1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520152b4363232500d0049c3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_fireExtinguisher01"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -18.4
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_clutter_fireExtinguisher01"
+  gridPoint {
+    x: 0.4
+    y: 0
+    z: 3.1000004
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520152ef363232500d0049c6"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_puddleBucket01"
+  gridPoint {
+    x: 14.5
+    y: 0
+    z: -17.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_decor_bike02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -12.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_decor_cardboardBoxes01"
+  gridPoint {
+    x: 14.3
+    y: 0
+    z: -14.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_decor_plywoodPile01"
+  gridPoint {
+    x: 15.5
+    y: 0
+    z: -17.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicArmchair"
+  gridPoint {
+    x: 14.4
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_pileOfJunk02"
+  gridPoint {
+    x: 14.4
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash06"
+  gridPoint {
+    x: 13.8
+    y: 0
+    z: 2.3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash04"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash01"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash04"
+  gridPoint {
+    x: 14.4
+    y: 0
+    z: -15.6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_pileOfClothes"
+  gridPoint {
+    x: 13.6
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "barrens_decor_graffiti02"
+  gridPoint {
+    x: 14.3
+    y: 0
+    z: -10.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_alwaysWatching"
+  gridPoint {
+    x: 9.9
+    y: -0.74
+    z: 2.8
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_genericGrafitti05"
+  gridPoint {
+    x: 14.23
+    y: -0.64
+    z: -8.5
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -3.1
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "52015493363232500d0049c7"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: -4.05
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52015493363232500d0049c8"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorFront01"
+  gridPoint {
+    x: -4.05
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52015497363232500d0049c9"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_doorBack01"
+  gridPoint {
+    x: -4.05
+    y: 0
+    z: 3.1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52015497363232500d0049ca"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -2.5
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "520154b7363232500d0049cb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015510363232500d0049cd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 16
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015511363232500d0049ce"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015515363232500d0049cf"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_end02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015516363232500d0049d0"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_salishCrow"
+  gridPoint {
+    x: 14.1
+    y: -1.41
+    z: -18.1
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "52015579363232500d0049d1"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -16.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015586363232500d0049d2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -17.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015589363232500d0049d3"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_fireExtinguisher01"
+  gridPoint {
+    x: 15.4
+    y: 0
+    z: -17.9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520155b2363232500d0049d4"
+  }
+  lod: 0
+}
+props {
+  name: "secretLab_furniture_table07"
+  gridPoint {
+    x: 8.7
+    y: 0
+    z: -17.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 9
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "520157b6363232500d0049d5"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_stove04"
+  gridPoint {
+    x: 7.4
+    y: 0
+    z: -17.8
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_furniture_kitchenCounter03"
+  gridPoint {
+    x: 6.3
+    y: 0
+    z: -17.7
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+  light {
+    range: 3
+    color {
+      r: 0.19607843
+      g: 0.90588236
+      b: 0.61176473
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 3
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015a43363232500d0049d7"
+  }
+  lod: 0
+  light {
+    range: 4
+    color {
+      r: 0.12941177
+      g: 0.61960787
+      b: 0.67450982
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015a5e363232500d0049d8"
+  }
+  lod: 0
+  light {
+    range: 3
+    color {
+      r: 0.19607843
+      g: 0.90588236
+      b: 0.61176473
+    }
+    intensity: 2
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015a7c363232500d0049d9"
+  }
+  lod: 0
+  light {
+    range: 3
+    color {
+      r: 0.78823531
+      g: 0.90588236
+      b: 0.019607844
+    }
+    intensity: 2
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 15
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015a7f363232500d0049da"
+  }
+  lod: 0
+  light {
+    range: 3
+    color {
+      r: 0.19607843
+      g: 0.90588236
+      b: 0.61176473
+    }
+    intensity: 2
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015a8b363232500d0049db"
+  }
+  lod: 0
+  light {
+    range: 3
+    color {
+      r: 0.67450982
+      g: 0.52156866
+      b: 0.4
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52015ac1363232500d0049dd"
+  }
+  lod: 0
+  light {
+    range: 4
+    color {
+      r: 1
+      g: 0.85490197
+      b: 0.031372551
+    }
+    intensity: 2
+  }
+}
+props {
+  name: "telestrianEstate_lighting_wallSconce01"
+  gridPoint {
+    x: -0.38999978
+    y: 1.51
+    z: -13.2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520160c4363232500d0049df"
+  }
+  lod: 0
+}
+props {
+  name: "office_trash_smallBin02"
+  gridPoint {
+    x: -0.1
+    y: 0
+    z: -13.5
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash01"
+  gridPoint {
+    x: 0.2
+    y: 0
+    z: -13.4
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: -0.1
+    y: 0
+    z: -13.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "diveBar_clutter_cocktail01"
+  gridPoint {
+    x: 5.73
+    y: 0.26
+    z: -16.13
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: 5.9
+    y: 0
+    z: -14.7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52016153363232500d0049e0"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_appliance_radiator"
+  gridPoint {
+    x: 5.2
+    y: 0
+    z: -13.9
+  }
+  orientation: ORIENTATION_S
+  tablet_optional: false
+  lod: 0
+}
+props {
+  name: "tenements_appliance_radiator"
+  gridPoint {
+    x: -5.9
+    y: 0
+    z: -10.4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52016310363232500d0049e2"
+  }
+  tablet_optional: false
+  lod: 0
+}
+props {
+  name: "tenements_appliance_toilet02"
+  gridPoint {
+    x: 0.7
+    y: 0
+    z: -17.9
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "asylum_lighting_wallFixture"
+  gridPoint {
+    x: 1.4
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_lighting_wallFixtureBroken"
+  gridPoint {
+    x: -3.1
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_decor_largeFramedPainting01"
+  gridPoint {
+    x: -6.3
+    y: 0
+    z: -14.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_clutter_puddle02"
+  gridPoint {
+    x: 0.4
+    y: 0
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_wall_connector03"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52018aea363232500d0049fb"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_clutter_waterJugs01"
+  gridPoint {
+    x: 0.7
+    y: 0
+    z: 3.1
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_lighting_wallFixture"
+  gridPoint {
+    x: 3.9
+    y: 0
+    z: 2.9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_lighting_wallFixture"
+  gridPoint {
+    x: 13.9
+    y: 0
+    z: -4.1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52018b3b363232500d0049fc"
+  }
+  lod: 0
+}
+props {
+  name: "asylum_lighting_wallFixture"
+  gridPoint {
+    x: 13.9
+    y: 0
+    z: -14.1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52018b49363232500d0049fd"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: -4
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52019aa6363232500d004a0c"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    doorPoint {
+      doorState: false
+      aiOnlyDoor: false
+      doorSound: "DoorSlide"
+      doorSoundBundle: "props"
+    }
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: 5
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "52019aac363232500d004a0d"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_LockedDoor
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52019abb363232500d004a0f"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_LockedDoor
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_door01Mid"
+  gridPoint {
+    x: 18
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52019ac2363232500d004a10"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_LockedDoor
+  }
+  lod: 0
+}
+props {
+  name: "office_decor_pottedBamboo"
+  gridPoint {
+    x: -2.9
+    y: 0
+    z: -15.6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "office_decor_pottedsnakeplant"
+  gridPoint {
+    x: 1.3877788e-016
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "vfx_fx_flicker"
+  gridPoint {
+    x: 0.20000005
+    y: -1.6899999
+    z: -16.5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "FlickeringLightEnvironment"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_furniture_basicArmchair"
+  gridPoint {
+    x: 11.3
+    y: 0
+    z: -17.4
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash06"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "tenements_clutter_piecesOfTrash05"
+  gridPoint {
+    x: -5.8
+    y: 0
+    z: -15.2
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "pikePlace_wallDecoration_halloweeners03"
+  gridPoint {
+    x: 11.5
+    y: -1.17
+    z: -18.199999
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "asylum_misc_roomDivider01"
+  gridPoint {
+    x: 9.9000006
+    y: 0
+    z: -7.7
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "asylum_misc_roomDivider01"
+  gridPoint {
+    x: 10.400001
+    y: 0
+    z: -7.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5213eb2d3632324c1e0051d2"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_wall_edge15"
+  gridPoint {
+    x: 13
+    y: 0
+    z: -4.9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53b748eb366262c00d00153e"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_poster03"
+  gridPoint {
+    x: -2.5
+    y: 0.3
+    z: -4.6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -30
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var1"
+  gridPoint {
+    x: -30
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var2"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var5"
+  gridPoint {
+    x: -30
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -41
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var2a"
+  gridPoint {
+    x: -40
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var6"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_entranceexit"
+  gridPoint {
+    x: -30
+    y: 0
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var5"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000a9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -45
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000aa"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var4a"
+  gridPoint {
+    x: -55
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000ab"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3a"
+  gridPoint {
+    x: -50
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000ac"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var4"
+  gridPoint {
+    x: -55
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0002366262e4150000ad"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0011366262e4150000ae"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0012366262e4150000af"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0017366262e4150000b0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0018366262e4150000b1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0019366262e4150000b2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df001e366262e4150000b3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df001e366262e4150000b4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df001e366262e4150000b5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df001e366262e4150000b6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df001e366262e4150000b7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000b8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000b9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000ba"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000bb"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000bc"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000bd"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000be"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000bf"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000c0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0024366262e4150000c1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000c9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000ca"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000cb"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000cc"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000cd"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -24
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000ce"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000cf"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -28
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002b366262e4150000d5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000d6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000d7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000d8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000d9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 30
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000da"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000db"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000dc"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000dd"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000de"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000df"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df002f366262e4150000e9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000ea"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000eb"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000ec"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000ed"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 46
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000ee"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000ef"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f0"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f1"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f2"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 42
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f3"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f4"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f5"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -44
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f6"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f7"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f8"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000f9"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000fa"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000fb"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000fc"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_floor_4x4var3"
+  gridPoint {
+    x: -60
+    y: 0
+    z: 34
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53df0031366262e4150000fd"
+  }
+  lod: 0
+}

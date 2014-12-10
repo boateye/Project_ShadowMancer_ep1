@@ -1,0 +1,45 @@
+idRef {
+  id: "548006ed656362f820005a3d"
+}
+ui_name: "ScreamingFist_Intro_Part1"
+nodes {
+  idRef {
+    id: "548006f9656362f820005a43"
+  }
+  index: 0
+  text: "Alright everyone, what\'s your status?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54800711656362f820005a46"
+  }
+  index: 1
+  text: "We\'re pinned! We need to jack out immedeately!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "539bb4d8653339a80b0016a1"
+  }
+}
+nodes {
+  idRef {
+    id: "54800738656362f820005a49"
+  }
+  index: 2
+  text: "Drek, their ICE did NOT take kindly to our visit."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "539bb623653339a80b0016b2"
+  }
+}
+roots {
+  nextNodeIndex: 0
+}
