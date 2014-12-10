@@ -70,7 +70,7 @@ nodes {
   index: 4
   text: "Sleep?\n\n{{GM}}She shakes her head{{/GM}}\n\nSure, Case.\n\n{{GM}}Se shivers and hunches over the bar. You notice that her face is covered in sweat.{{/GM}}"
   branches {
-    responseText: "{{CC}}$50{{/CC}}Here."
+    responseText: "{{CC}}$50{{/CC}} Here."
     nextNodeIndex: 5
   }
   nodeType: ConversationNodeType_Simple
