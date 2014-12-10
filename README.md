@@ -1,4 +1,4 @@
-Project ShadowMancer Ep.1 - "The Screaming Fist"
+Project: ShadowMancer Ep.1 - "The Screaming Fist"
 ========================
 
 Episode 1 of a fan adaptation of William Gibson's Neuromancer into the Shadowrun Returns Engine.
