@@ -17,7 +17,7 @@ nodes {
     nextNodeIndex: 2
   }
   branches {
-    responseText: "{{CC}}Pointing at Ratz{{/CC}}That\'s what happens when you ge to chatting with THIS drekking guy. No one wonders why this is called The Chat. "
+    responseText: "{{CC}}Pointing at Ratz{{/CC}} That\'s what happens when you get to chatting with THIS drekking guy. No wonder this is called \'The Chat\'. "
     nextNodeIndex: 10
   }
   nodeType: ConversationNodeType_Simple
@@ -56,7 +56,7 @@ nodes {
     id: "53de871c36626250170004c7"
   }
   index: 3
-  text: "No. Mona. Her new squeeze is one of Wage\'s boys.\n\nToo many people owe Wage now, Case. Maybe you get to be the example. You better watch it."
+  text: "Mona. Her new squeeze is one of Wage\'s boys.\n\nToo many people owe Wage now, Case. Maybe you get to be the example. You better watch it."
   branches {
     responseText: "Wiz. What about you, Linda? You got anywhere to sleep?"
     nextNodeIndex: 4
@@ -68,7 +68,7 @@ nodes {
     id: "53de87f236626250170004e8"
   }
   index: 4
-  text: "Sleep?\n\n{{GM}}She shakes her head{{/GM}}\n\nSure, Case.\n\n{{GM}}Se shivers and hunches over the bar. You notice that her face is covered in sweat.{{/GM}}"
+  text: "Sleep?\n\n{{GM}}She shakes her head.{{/GM}}\n\nSure, Case.\n\n{{GM}}She shivers and hunches over the bar. You notice that her face is covered in sweat.{{/GM}}"
   branches {
     responseText: "{{CC}}$50{{/CC}} Here."
     nextNodeIndex: 5
@@ -259,7 +259,7 @@ nodes {
     id: "53dd74013662625017000237"
   }
   index: 10
-  text: "That\'s because it\'s short for The Chatsubo..."
+  text: "That\'s because it\'s short for \'The Chatsu-"
   branches {
     responseText: ""
     nextNodeIndex: 2

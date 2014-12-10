@@ -7,7 +7,7 @@ nodes {
     id: "53db02f9366262101a007f2d"
   }
   index: 0
-  text: "{{GM}}Turns to the woman who entered{{/GM}}\n\nOi, I already told you that we\'re drekking clos...Oh, it\'s you."
+  text: "{{GM}}Turns to the woman who just entered.{{/GM}}\n\nOi, I already told you that we\'re drekking clos...Oh, it\'s you."
   branches {
     responseText: ""
     nextNodeIndex: 1
@@ -22,7 +22,7 @@ nodes {
     id: "53dc8b9c366262500b004d4a"
   }
   index: 1
-  text: "{{GM}}You turn to see a dark haired woman with olive skin, gray eyes smudged with black paintstick. Her eyes are alert, and shifting. Scanning for where she can get her next hit.{{/GM}}\n\nHey. Case, good buddy...I been looking for you, man."
+  text: "{{GM}}You turn to see a dark haired woman with pale skin, gray eyes smudged with black paintstick. Her eyes are alert, and shifting. Scanning for where she can get her next hit.{{/GM}}\n\nHey. Case, good buddy...I been looking for you, man."
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
     id: "53d20375653339c40a003970"
