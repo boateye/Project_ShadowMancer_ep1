@@ -87,7 +87,7 @@ nodes {
           call_value {
             functionName: "Get Map Item (Goal)"
             args {
-              string_value: "Find Wage"
+              string_value: "Chat with Lonny."
             }
           }
         }
@@ -115,12 +115,56 @@ nodes {
         }
       }
       ops {
-        functionName: "Open Scene"
+        functionName: "Enable/Disable Interactable Object"
         args {
           call_value {
-            functionName: "Get Map Item (Scene)"
+            functionName: "Get Preset Value (int)"
             args {
-              string_value: "TheChase"
+              string_value: "EnableOrDisable"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (InteractableObject)"
+            args {
+              string_value: "5488c01e6563620c10007736"
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Goal Status"
+        args {
+          call_value {
+            functionName: "Get Map Item (Goal)"
+            args {
+              string_value: "Go Home."
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "GoalStatus"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
             }
           }
         }

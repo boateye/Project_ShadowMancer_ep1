@@ -5479,7 +5479,7 @@ props {
     z: -3
   }
   orientation: ORIENTATION_S
-  displayName: "prop_SceneTransition"
+  displayName: "prop_SceneTransition_theTail"
   idRef {
     id: "53c6ee826533397c1600839a"
   }
@@ -5747,6 +5747,28 @@ props {
       aiOnlyDoor: false
       doorSound: "CellBlock_Open"
       doorSoundBundle: "Berlin:props"
+    }
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_nonsolidProp"
+  gridPoint {
+    x: 19
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  displayName: "prop_SceneTransition_TheChase"
+  idRef {
+    id: "5488c01e6563620c10007736"
+  }
+  interactionRoot {
+    isEnabled: false
+    interactionRadius: 1
+    transitionPoint {
+      scene_name: "TheTail"
+      confirmation_text: ""
     }
   }
   lod: 0

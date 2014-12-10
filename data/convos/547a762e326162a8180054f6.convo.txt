@@ -17,7 +17,7 @@ nodes {
     nextNodeIndex: 2
   }
   branches {
-    responseText: "Listen, this crazy person has been tailing me with a gun, you need to call the police, or someone!"
+    responseText: "Listen, this crazy person has been tailing me with a gun, you need to call the police!"
     nextNodeIndex: 3
   }
   nodeType: ConversationNodeType_Simple

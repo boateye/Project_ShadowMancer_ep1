@@ -167,7 +167,7 @@ nodes {
     id: "5480244c656362f820005b0c"
   }
   index: 8
-  text: "\"What would you say, Case?\""
+  text: "{{GM}}Your shivering continues.{{/GM}}\n\n\"What would you say, Case?\""
   branches {
     responseText: "I\'d say you\'re full of shit."
     nextNodeIndex: 9
