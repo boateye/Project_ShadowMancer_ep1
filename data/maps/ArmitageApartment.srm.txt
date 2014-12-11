@@ -1743,7 +1743,7 @@ props {
 props {
   name: "secretLab_wall_4x4fill"
   gridPoint {
-    x: 29
+    x: 30
     y: 0
     z: 5
   }
@@ -2953,7 +2953,7 @@ props {
 props {
   name: "office_wall_glassDoor01"
   gridPoint {
-    x: 26
+    x: 25
     y: 0
     z: 2
   }

@@ -1,0 +1,43 @@
+idRef {
+  id: "5488ea156563626c1d000c16"
+}
+ui_name: "TheScreamingFist_HelsinkiEscapees1"
+nodes {
+  idRef {
+    id: "5488ea456563626c1d000c1c"
+  }
+  index: 0
+  text: "Thank God you\'re here, case!"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "539bb68b653339a80b0016b9"
+  }
+}
+nodes {
+  idRef {
+    id: "5488ea676563626c1d000c1f"
+  }
+  index: 1
+  text: "Yea, we could use your help with these ICE."
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Send Event"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Event_StartCombat"
+          }
+        }
+      }
+    }
+  }
+}
+roots {
+  nextNodeIndex: 0
+}
