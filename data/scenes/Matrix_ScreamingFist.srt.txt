@@ -1,919 +1,4 @@
 triggers {
-  name: "Trigger_GoAheadCase"
-  events {
-    ops {
-      functionName: "On Region Enter"
-      args {
-        call_value {
-          functionName: "Get Map Item (Region)"
-          args {
-            string_value: "5480106a656362f820005a93"
-          }
-        }
-      }
-    }
-  }
-  conditions {
-    ops {
-      functionName: "Comparison (Actor)"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "53bee92c366262c017001309"
-          }
-        }
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Display Text over Actor"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "53bee92c366262c017001309"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TextPopupStyle"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        string_value: "You go ahead of me, Case. I need to be the last one out."
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "539e309d366262400b00675e"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "Trigger_Escape"
-  events {
-  }
-  conditions {
-  }
-  actions {
-    ops {
-      functionName: "Set Actor In Passive Mode"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb68b653339a80b0016b9"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Actor In Passive Mode"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb696653339a80b0016ba"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Order Actor to Move To (Point)"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb696653339a80b0016ba"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Specified Point (3D)"
-          args {
-            float_value: 11
-          }
-          args {
-            float_value: 0
-          }
-          args {
-            float_value: 17
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 5
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Order Actor to Move To (Point)"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb68b653339a80b0016b9"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Specified Point (3D)"
-          args {
-            float_value: 11
-          }
-          args {
-            float_value: 0
-          }
-          args {
-            float_value: 16
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 5
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "End Current Team Round"
-    }
-    ops {
-      functionName: "Play Animation From Type"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "539bb68b653339a80b0016b9"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (AnimationType)"
-          args {
-            string_value: "Seattle"
-          }
-          args {
-            string_value: "interact"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Send Event After Delay"
-      args {
-        call_value {
-          functionName: "Get Map Item (Event)"
-          args {
-            string_value: "Event_MoveEscapees"
-          }
-        }
-      }
-      args {
-        float_value: 5
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "539e2ee5366262400b006734"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "Trigger_TeleportEscapees"
-  events {
-    ops {
-      functionName: "Get Map Item (Event)"
-      args {
-        string_value: "Event_MoveEscapees"
-      }
-    }
-  }
-  conditions {
-  }
-  actions {
-    ops {
-      functionName: "Teleport Actor"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb68b653339a80b0016b9"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Center of Region"
-          args {
-            call_value {
-              functionName: "Get Map Item (Region)"
-              args {
-                string_value: "539e33fc366262400b006770"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeleportMethod"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Teleport Actor near Actor"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Get Map Item (Actor)"
-              args {
-                string_value: "539bb696653339a80b0016ba"
-              }
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        int_value: 0
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "539bb68b653339a80b0016b9"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeleportMethod"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Send Event"
-      args {
-        call_value {
-          functionName: "Get Map Item (Event)"
-          args {
-            string_value: "Event_StartCombat"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Region Enabled"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "EnableOrDisable"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Region)"
-          args {
-            string_value: "5480106a656362f820005a93"
-          }
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "539f4b78653339e803001689"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "Trigger_StartCombat"
-  events {
-    ops {
-      functionName: "Get Map Item (Event)"
-      args {
-        string_value: "Event_StartCombat"
-      }
-    }
-  }
-  conditions {
-  }
-  actions {
-    ops {
-      functionName: "Display Text at Screen Position"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TextPopupStyle"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        string_value: "The ICE Activate their attack protocols."
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 7
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
-      }
-    }
-    ops {
-      functionName: "Set Team Alliance"
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 2
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeamAlliance"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (SceneDimension)"
-          args {
-            string_value: "Default"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Team Alliance"
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 2
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeamAlliance"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (SceneDimension)"
-          args {
-            string_value: "Matrix"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Team Alliance"
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeamAlliance"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "FactionList"
-          }
-          args {
-            int_value: 2
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (SceneDimension)"
-          args {
-            string_value: "Default"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Display Text over Actor"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "539bb4d8653339a80b0016a1"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TextPopupStyle"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        string_value: "I\'m surrounded!"
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 5
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
-      }
-    }
-    ops {
-      functionName: "Display Text over Actor"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "539bb623653339a80b0016b2"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TextPopupStyle"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        string_value: "Save me!"
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 5
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
-      }
-    }
-    ops {
-      functionName: "Play Animation From Manifest"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Animation)"
-          args {
-            string_value: "Seattle:Bug/Bomber/standing_attack"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Play Music"
-      args {
-        call_value {
-          functionName: "Get Map Item (Music)"
-          args {
-            string_value: "Seattle_Set6"
-          }
-          args {
-            string_value: "Seattle-Set6-Combat"
-          }
-        }
-      }
-      args {
-        float_value: 8
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "539f4f63653339e80300168a"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "Trigger_GTFO"
-  events {
-    ops {
-      functionName: "Get Map Item (Event)"
-      args {
-        string_value: "Event_GTFO"
-      }
-    }
-  }
-  conditions {
-  }
-  actions {
-    ops {
-      functionName: "Display Text over Actor"
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
-            string_value: "53bee92c366262c017001309"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TextPopupStyle"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        string_value: "Drek, I think those two were right. We should get outta here!"
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 0
-      }
-      args {
-        float_value: 7
-      }
-      args {
-        float_value: 3
-      }
-      args {
-        float_value: 0
-      }
-    }
-    ops {
-      functionName: "Enable/Disable Interactable Object"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "EnableOrDisable"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (InteractableObject)"
-          args {
-            string_value: "53a520426533399c0600164e"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Goal Status"
-      args {
-        call_value {
-          functionName: "Get Map Item (Goal)"
-          args {
-            string_value: "Escape!"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "GoalStatus"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "WithOrWithout"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "53aba35d653339281c0041c1"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
   name: "trgr_MapInitialization"
   events {
     ops {
@@ -1068,10 +153,430 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "Mole"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "No Effect"
+    }
   }
   isActive: true
   idRef {
     id: "54800ce1656362f820005a8c"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Trigger_StartCombat"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Event_StartCombat"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Display Text at Screen Position"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "The ICE Activate their attack protocols."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 7
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Team Alliance"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeamAlliance"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Display Text over Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "539bb4d8653339a80b0016a1"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "I\'m surrounded!"
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 5
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Display Text over Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "539bb623653339a80b0016b2"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "Save me!"
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 5
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Set6"
+          }
+          args {
+            string_value: "Seattle-Set6-Combat"
+          }
+        }
+      }
+      args {
+        float_value: 8
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "539f4f63653339e80300168a"
   }
   elseActions {
   }
@@ -1086,71 +591,75 @@ triggers {
   }
   conditions {
     ops {
-      functionName: "AND"
+      functionName: "Compare Actor Team"
       args {
         call_value {
-          functionName: "Compare Actor Team"
+          functionName: "Triggering Target Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
           args {
-            call_value {
-              functionName: "Triggering Target Actor"
-            }
+            string_value: "IsOrIsNot"
           }
           args {
-            call_value {
-              functionName: "Get Preset Value (int)"
-              args {
-                string_value: "IsOrIsNot"
-              }
-              args {
-                int_value: 1
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Preset Value (string)"
-              args {
-                string_value: "FactionList"
-              }
-              args {
-                int_value: 2
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Map Item (SceneDimension)"
-              args {
-                string_value: "Matrix"
-              }
-            }
+            int_value: 1
           }
         }
       }
       args {
         call_value {
-          functionName: "Comparison (int)"
+          functionName: "Get Preset Value (string)"
           args {
-            call_value {
-              functionName: "Get Variable (int)"
-              args {
-                string_value: "var_DeadIce"
-              }
-            }
+            string_value: "FactionList"
           }
           args {
-            call_value {
-              functionName: "Get Preset Value (int)"
-              args {
-                string_value: "Comparison Ops"
-              }
-              args {
-                int_value: 0
-              }
-            }
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Evaluate Team Survival Percentage"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
           }
           args {
-            int_value: 12
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 100
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
           }
         }
       }
@@ -1158,12 +667,380 @@ triggers {
   }
   actions {
     ops {
+      functionName: "End Current Team Round"
+    }
+    ops {
+      functionName: "Set Region Enabled"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb696653339a80b0016ba"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb68b653339a80b0016b9"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "539e2f21366262400b006735"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "539bb68b653339a80b0016b9"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Activate Actor Spawner By Tag"
       args {
         call_value {
           functionName: "Get Map Item (SenseTagList)"
           args {
             string_value: "Reinforcement"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "5488ed4f6563626c1d000c45"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "5488ed4f6563626c1d000c45"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Trigger_Escape"
+  events {
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Order Actor to Move To (Region)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb696653339a80b0016ba"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Move To (Region)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb68b653339a80b0016b9"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "End Current Team Round"
+    }
+    ops {
+      functionName: "Send Event After Delay"
+      args {
+        call_value {
+          functionName: "Get Map Item (Event)"
+          args {
+            string_value: "Event_MoveEscapees"
+          }
+        }
+      }
+      args {
+        float_value: 5
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "539e2ee5366262400b006734"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Trigger_TeleportEscapees"
+  events {
+    ops {
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Event_MoveEscapees"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb68b653339a80b0016b9"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "539e33fc366262400b006770"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Actor near Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "539bb696653339a80b0016ba"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 0
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "539bb68b653339a80b0016b9"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
           }
         }
       }
@@ -1182,23 +1059,269 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "5488ed4f6563626c1d000c45"
+    id: "539f4b78653339e803001689"
   }
   elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Trigger_GTFO"
+  events {
     ops {
-      functionName: "Add To Variable (int)"
+      functionName: "Get Map Item (Event)"
+      args {
+        string_value: "Event_GTFO"
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Display Text over Actor"
       args {
         call_value {
-          functionName: "Get Variable (int)"
+          functionName: "Get Map Item (Actor)"
           args {
-            string_value: "var_DeadIce"
+            string_value: "53bee92c366262c017001309"
           }
         }
       }
       args {
-        int_value: 1
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "Drek, I think those two were right. We should get outta here!"
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 7
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
       }
     }
+    ops {
+      functionName: "Enable/Disable Interactable Object"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53a520426533399c0600164e"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Escape!"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Order Actor to Move To (Region)"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53bee92c366262c017001309"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53aba35d653339281c0041c1"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Trigger_GoAheadCase"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53bee92c366262c017001309"
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Display Text over Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53bee92c366262c017001309"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        string_value: "You go ahead of me, Case. I need to be the last one out."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "539e309d366262400b00675e"
+  }
+  elseActions {
   }
   is_oneshot: true
 }
@@ -1337,10 +1460,10 @@ regions {
 regions {
   name: "rgn_TeleportCase"
   position {
-    x: 10
-    y: 15
+    x: -43
+    y: 16
     width: 2
-    height: 3
+    height: 2
   }
   enabledAtStart: false
   is_camera_region: false
@@ -1496,12 +1619,13 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1526,12 +1650,13 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1561,7 +1686,7 @@ characters {
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1631,14 +1756,32 @@ characters {
     prefab_name: "Matrix/MatrixICE_white_melee"
     character_sheet_id: "IC_Lv1_White_Ranged"
     equipment_sheet_id: "IC White Melee Lv1 Gear"
+    character_mod {
+      stats {
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1659,12 +1802,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1685,12 +1829,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1711,12 +1856,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1737,12 +1883,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1763,12 +1910,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1789,12 +1937,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -1862,18 +2011,22 @@ characters {
   lod: 0
   character_instance {
     prefab_name: "Seattle:Security/ElfFemaleSecurity"
-    character_sheet_id: "BaseCivilian"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
     character_mod {
       stats {
         body: 0
-        quickness: 2
+        quickness: 0
         strength: 0
         charisma: 0
         intelligence: 0
         willpower: 0
         essence: 0
+        magic: 0
         hp: 0
-        ap: 28
+        ap: 0
+        armor: 0
+        force: 0
         morale: 0
         discipline: 0
         awareness: 0
@@ -1883,10 +2036,38 @@ characters {
         move_speed: 0
       }
       skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
       }
       specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
       }
-      archetypeName: "Non-Combatant"
+      archetypeName: "Guard - Hunt And Destroy"
+      attitude: AttitudeAggressive
       vulnerabilities {
       }
     }
@@ -1897,8 +2078,8 @@ characters {
     portrait {
       filename: "pc_elffemale_00_faceless"
     }
-    dimension_name: "Default"
-    karma: 11
+    dimension_name: "Matrix"
+    karma: 33
   }
 }
 characters {
@@ -1915,7 +2096,8 @@ characters {
   lod: 0
   character_instance {
     prefab_name: "Seattle:Security/HumanMaleSecurity"
-    character_sheet_id: "BaseCivilian"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
     character_mod {
       stats {
         body: 0
@@ -1925,21 +2107,52 @@ characters {
         intelligence: 0
         willpower: 0
         essence: 0
+        magic: 0
         hp: 0
-        ap: 28
+        ap: 0
+        armor: 0
+        force: 0
         morale: 0
         discipline: 0
         awareness: 0
         perception: 0
         authority: 0
         protect_tether_range: 0
-        move_speed: -1
+        move_speed: 0
       }
       skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
       }
       specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
       }
-      archetypeName: "Non-Combatant"
+      archetypeName: "Guard - Hunt And Destroy"
+      attitude: AttitudeAggressive
       vulnerabilities {
       }
     }
@@ -1950,34 +2163,8 @@ characters {
     portrait {
       filename: "pc_humanmale_00_faceless"
     }
-    dimension_name: "Default"
-    karma: 6
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -13
-    y: 0
-    z: 22
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "539bb81f6533397c1900164f"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
+    karma: 33
   }
 }
 characters {
@@ -1988,6 +2175,7 @@ characters {
     z: 21
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d548653339581f000f46"
   }
@@ -2001,7 +2189,10 @@ characters {
         morale: 24
         discipline: 24
         awareness: 24
+        perception: 0
+        authority: 0
         protect_tether_range: 5
+        move_speed: 0
       }
       skills {
       }
@@ -2009,15 +2200,19 @@ characters {
       }
       archetypeName: "Guard - Protect"
       attitude: AttitudeAggressive
+      vulnerabilities {
+      }
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2028,12 +2223,13 @@ characters {
     z: 20
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d54a653339581f000f47"
   }
   lod: 0
   character_instance {
-    prefab_name: "Matrix/MatrixICE_black_range"
+    prefab_name: "Seattle:Matrix/MatrixICE_black_range"
     character_sheet_id: "IC_Lv1_Black_Ranged"
     equipment_sheet_id: "IC Black Ranged Lv1 Gear"
     character_mod {
@@ -2041,7 +2237,10 @@ characters {
         morale: 24
         discipline: 24
         awareness: 24
+        perception: 0
+        authority: 0
         protect_tether_range: 5
+        move_speed: 0
       }
       skills {
       }
@@ -2049,15 +2248,20 @@ characters {
       }
       archetypeName: "Guard - Protect"
       attitude: AttitudeAggressive
+      vulnerabilities {
+      }
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
+    karma: 33
   }
 }
 characters {
@@ -2068,6 +2272,7 @@ characters {
     z: 17
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d54b653339581f000f48"
   }
@@ -2092,12 +2297,14 @@ characters {
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2108,6 +2315,7 @@ characters {
     z: 16
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d54c653339581f000f49"
   }
@@ -2132,12 +2340,14 @@ characters {
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2148,6 +2358,7 @@ characters {
     z: 13
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d54d653339581f000f4a"
   }
@@ -2172,12 +2383,14 @@ characters {
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2188,6 +2401,7 @@ characters {
     z: 12
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53a3d54e653339581f000f4b"
   }
@@ -2212,12 +2426,14 @@ characters {
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2225,9 +2441,10 @@ characters {
   gridPoint {
     x: -7
     y: 0
-    z: 14
+    z: 18
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53abb324653339f418007e88"
   }
@@ -2252,12 +2469,14 @@ characters {
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2268,6 +2487,7 @@ characters {
     z: 19
   }
   orientation: ORIENTATION_N
+  GeneralTags: "Mole"
   idRef {
     id: "53abb326653339f418007e89"
   }
@@ -2281,7 +2501,10 @@ characters {
         morale: 24
         discipline: 24
         awareness: 24
+        perception: 0
+        authority: 0
         protect_tether_range: 5
+        move_speed: 0
       }
       skills {
       }
@@ -2289,15 +2512,19 @@ characters {
       }
       archetypeName: "Guard - Protect"
       attitude: AttitudeAggressive
+      vulnerabilities {
+      }
     }
     team_id: "Shadowrunners"
     char_name: "Mole 1.0"
+    GeneralTags: "Mole"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2305,17 +2532,17 @@ characters {
   gridPoint {
     x: -7
     y: 0
-    z: 18
+    z: 14
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   idRef {
     id: "53bee92c366262c017001309"
   }
   lod: 0
   character_instance {
     prefab_name: "Seattle:Story/JakeArmitage"
-    character_sheet_id: "Story_Jake"
-    equipment_sheet_id: "Story_Jake"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
     character_mod {
       stats {
         body: 0
@@ -2336,7 +2563,7 @@ characters {
         perception: 0
         authority: 0
         protect_tether_range: 0
-        move_speed: 14
+        move_speed: 0
       }
       skills {
         ranged_combat: 0
@@ -2358,6 +2585,9 @@ characters {
         chi_casting: 0
         drain_resistance: 0
         drone_combat: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
       }
       specializations {
         pistol: 0
@@ -2368,13 +2598,15 @@ characters {
         unarmed: 0
         throwing_blades: 0
         spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
       }
       archetypeName: "Guard - Seek And Destroy"
       attitude: AttitudeAggressive
       vulnerabilities {
       }
     }
-    team_id: "Shadowrunner"
+    team_id: "Civilians"
     char_name: "Jake Armitage"
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -2384,7 +2616,8 @@ characters {
       filename: "NPC_HumanMale_JakeArmitage"
     }
     description_bio: "Bad memory, poor sleep habits. Knows the game like no one else."
-    karma: 97
+    dimension_name: "Matrix"
+    karma: 33
     hiring_cost_override: 1200
     hiring_tag: "Jake Armitage during Screaming Fist"
   }
@@ -2409,6 +2642,7 @@ characters {
     char_name: "New Actor"
     enabled_at_start: true
     pc_spawn_number: 0
+    dimension_name: "Default"
   }
 }
 characters {
@@ -2433,12 +2667,13 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White Sentry IC"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2461,12 +2696,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2487,12 +2723,13 @@ characters {
     equipment_sheet_id: "IC White Melee Lv1 Gear"
     team_id: "LoneStar"
     char_name: "White IC"
+    enabled_at_start: true
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2515,12 +2752,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2543,12 +2781,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2571,12 +2810,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2599,12 +2839,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2627,12 +2868,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2655,12 +2897,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2683,12 +2926,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2711,12 +2955,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2739,12 +2984,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2767,12 +3013,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2795,12 +3042,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2823,12 +3071,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2851,12 +3100,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2879,12 +3129,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2907,12 +3158,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2935,12 +3187,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2963,12 +3216,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -2991,12 +3245,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -3023,6 +3278,7 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
@@ -3055,12 +3311,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -3087,6 +3344,7 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
@@ -3119,12 +3377,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
@@ -3147,20 +3406,21 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -14
+    x: -15
     y: 0
-    z: 17
+    z: 16
   }
   orientation: ORIENTATION_S
   GeneralTags: "Reinforcement"
@@ -3175,20 +3435,21 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -14
+    x: -15
     y: 0
-    z: 18
+    z: 17
   }
   orientation: ORIENTATION_S
   GeneralTags: "Reinforcement"
@@ -3203,12 +3464,13 @@ characters {
     team_id: "LoneStar"
     char_name: "White IC"
     GeneralTags: "Reinforcement"
+    enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
     portrait {
       filename: ""
     }
-    dimension_name: "matrix"
+    dimension_name: "Matrix"
   }
 }
 variables {
@@ -3263,7 +3525,7 @@ team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
   affiliation: 0
-  affiliation: 0
+  affiliation: 1
   affiliation: 0
 }
 team_affiliations {
@@ -3275,7 +3537,7 @@ team_affiliations {
 }
 team_affiliations {
   team_name: "LoneStar"
-  affiliation: 0
+  affiliation: 1
   affiliation: 0
   affiliation: 0
   affiliation: 0

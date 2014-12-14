@@ -1,5 +1,5 @@
 prefab_name: "Seattle:Core/HumanMale"
-character_sheet_id: "Lvl2_Human_Decker"
+character_sheet_id: "Lvl5_Human_Decker"
 character_mod {
   stats {
     body: 0
@@ -27,7 +27,7 @@ character_mod {
     close_combat: 0
     throwing_weapons: 0
     spellcasting: 0
-    decking: 7
+    decking: 5
     conjuring: 0
     spirit_summoning: 0
     drone_control: 0
@@ -43,7 +43,7 @@ character_mod {
     drain_resistance: 0
     drone_combat: 0
     etiquette_shadowrunner: 0
-    etiquette_street: 1
+    etiquette_street: 0
     etiquette_academic: 0
   }
   specializations {
@@ -55,7 +55,7 @@ character_mod {
     unarmed: 0
     throwing_blades: 0
     spirit_control: 0
-    esp_control: 8
+    esp_control: 0
     drone_combat: 0
   }
   archetypeName: "Guard - Protect"
@@ -67,7 +67,7 @@ equipment {
   prefab_name: "Player_DeckerStreet"
 }
 equipment {
-  prefab_name: "CyberdeckSony"
+  prefab_name: "CyberdeckExcalibur"
 }
 team_id: "Shadowrunner"
 char_name: "Case"
@@ -82,7 +82,7 @@ portrait {
 }
 description_bio: "The main protagonist."
 portrait_code_override: "s1hoc11b8c11t0"
-karma: 169
+karma: 163
 hiring_cost_override: 1000
 hiring_tag: "Case, the main protagonist of Neuromancer"
 scale_character_sheet: true

@@ -117,7 +117,7 @@ props {
 props {
   name: "vfx_fx_matrixentranceexit"
   gridPoint {
-    x: 13
+    x: -43
     y: 0
     z: 16
   }
@@ -591,9 +591,9 @@ props {
 props {
   name: "matrix_tech_1x2cover"
   gridPoint {
-    x: -13
+    x: -14
     y: 0
-    z: 16.900002
+    z: 15.900002
   }
   orientation: ORIENTATION_E
   idRef {
@@ -7438,6 +7438,40 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5488e8756563627c01004449"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_matrixdatalines"
+  gridPoint {
+    x: -26
+    y: 0
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "MatrixDataLinesEnvironment"
+  }
+  idRef {
+    id: "548d1afe656362c01800698e"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_matrixdatalines"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "MatrixDataLinesEnvironment"
+  }
+  idRef {
+    id: "548d1b08656362c01800698f"
   }
   lod: 0
 }
