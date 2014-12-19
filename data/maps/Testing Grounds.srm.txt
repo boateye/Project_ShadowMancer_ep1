@@ -854,3 +854,72 @@ props {
   }
   lod: 0
 }
+props {
+  name: "matrix_wall_door01RedNear"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5493ac86656362a414002e3e"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_matrixDoor2"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "matrixDoorEnvironment90"
+  }
+  idRef {
+    id: "5493ac86656362a414002e3f"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_wall_door01RedFar"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5493ac86656362a414002e40"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_wall_door01Near"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5493ac86656362a414002e41"
+  }
+  lod: 0
+}
+props {
+  name: "matrix_wall_door01Far"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5493ac86656362a414002e43"
+  }
+  lod: 0
+}
