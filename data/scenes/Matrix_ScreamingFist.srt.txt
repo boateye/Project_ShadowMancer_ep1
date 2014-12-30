@@ -1325,6 +1325,71 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "NewTrigger"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "54a262af6563626c1c004410"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "SW"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "54a263cd6563626c1c004411"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region_EscapeZone"
   position {
@@ -1557,6 +1622,50 @@ regions {
   is_camera_region: true
   idRef {
     id: "54801ff5656362f820005ad6"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "rgn_SecondWave"
+  position {
+    x: -30
+    y: 7
+    width: 1
+    height: 20
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "54a262af6563626c1c004410"
   }
   highlight_color {
     r: 0
@@ -3155,6 +3264,72 @@ characters {
       filename: ""
     }
     dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -30
+    y: 0
+    z: 17
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "SW"
+  idRef {
+    id: "54a2629d6563626c1c00440e"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "SW"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -30
+    y: 0
+    z: 16
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "SW"
+  idRef {
+    id: "54a262a06563626c1c00440f"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "SW"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
   }
 }
 variables {
