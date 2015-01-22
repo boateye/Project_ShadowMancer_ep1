@@ -3942,9 +3942,9 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -109
+    x: -110
     y: 0
-    z: 28
+    z: 4
   }
   orientation: ORIENTATION_N
   idRef {
