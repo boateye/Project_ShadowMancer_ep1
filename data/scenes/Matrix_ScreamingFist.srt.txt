@@ -1815,6 +1815,120 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "Reinforcement"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "Mole"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "SW"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -2922,10 +3036,10 @@ regions {
 regions {
   name: "rgn_TeleportCase"
   position {
-    x: -43
-    y: 16
+    x: -44
+    y: 15
     width: 2
-    height: 2
+    height: 4
   }
   enabledAtStart: false
   is_camera_region: false
@@ -3098,7 +3212,7 @@ regions {
 regions {
   name: "rgn_Portal2"
   position {
-    x: -54
+    x: -66
     y: 15
     width: 2
     height: 2
@@ -3191,7 +3305,7 @@ regions {
     width: 2
     height: 28
   }
-  enabledAtStart: false
+  enabledAtStart: true
   is_camera_region: false
   idRef {
     id: "54b2469c656362880a0063da"
@@ -3235,7 +3349,7 @@ regions {
     width: 2
     height: 28
   }
-  enabledAtStart: false
+  enabledAtStart: true
   is_camera_region: false
   idRef {
     id: "54b246b5656362880a0063db"
@@ -4269,11 +4383,11 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -106
+    x: 49
     y: 0
-    z: -19
+    z: -4
   }
-  orientation: ORIENTATION_W
+  orientation: ORIENTATION_N
   idRef {
     id: "5486a11f3261622427006994"
   }
@@ -4379,64 +4493,6 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -17
-    y: 0
-    z: 26
-  }
-  orientation: ORIENTATION_W
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f23c6563626c1d000c55"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -20
-    y: 0
-    z: 26
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f23e6563626c1d000c56"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
     x: -9
     y: 0
     z: 7
@@ -4495,96 +4551,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -17
-    y: 0
-    z: 7
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2516563626c1d000c5a"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -20
-    y: 0
-    z: 7
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f25d6563626c1d000c5b"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
     x: -5
     y: 0
-    z: 21
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2626563626c1d000c5c"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -5
-    y: 0
-    z: 19
+    z: 22
   }
   orientation: ORIENTATION_N
   GeneralTags: "Reinforcement"
@@ -4613,41 +4582,12 @@ characters {
   gridPoint {
     x: -5
     y: 0
-    z: 15
+    z: 17
   }
   orientation: ORIENTATION_N
   GeneralTags: "Reinforcement"
   idRef {
     id: "5488f26a6563626c1d000c5e"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -5
-    y: 0
-    z: 13
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f26b6563626c1d000c5f"
   }
   lod: 0
   character_instance {
@@ -4677,151 +4617,6 @@ characters {
   GeneralTags: "Reinforcement"
   idRef {
     id: "5488f26c6563626c1d000c60"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -5
-    y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f26f6563626c1d000c62"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -17
-    y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2bd6563626c1d000c64"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -17
-    y: 0
-    z: 16
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2bf6563626c1d000c65"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 13
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2c86563626c1d000c67"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 21
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f2cc6563626c1d000c68"
   }
   lod: 0
   character_instance {
@@ -4983,64 +4778,6 @@ characters {
   GeneralTags: "Reinforcement"
   idRef {
     id: "5488f30d6563626c1d000c6d"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 16
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f3166563626c1d000c6e"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_melee"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Melee Lv1 Gear"
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "Reinforcement"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "Matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 17
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "Reinforcement"
-  idRef {
-    id: "5488f3196563626c1d000c6f"
   }
   lod: 0
   character_instance {

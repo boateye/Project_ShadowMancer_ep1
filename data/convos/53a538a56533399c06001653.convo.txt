@@ -146,7 +146,7 @@ nodes {
   }
   branches {
     responseText: "Who the fuck is this \'We\'?"
-    nextNodeIndex: 14
+    nextNodeIndex: 15
   }
   nodeType: ConversationNodeType_Simple
 }
@@ -155,7 +155,7 @@ nodes {
     id: "54802340656362f820005aec"
   }
   index: 7
-  text: "What would you say if I told you we could correct your neural damage, Case?\n\n{{GM}}Armitage suddenly looks as if he\'s carved from a block of metal. Intert, and enormously heavy. A statue. You knew it was a dream, and that you\'d soon wake. Armitage wouldn\'t speak again. Case\'s dreams always ended in freezeframes, and now this one was over. {{/GM}}"
+  text: "What would you say if I told you we could correct your neural damage, Case?\n\n{{GM}}Armitage suddenly looks as if he\'s carved from a block of metal. Inert, and enormously heavy. A statue. You knew it was a dream, and that you\'d soon wake. Armitage wouldn\'t speak again. Case\'s dreams always ended in freezeframes like this, and now this one was over. {{/GM}}"
   branches {
     responseText: ""
     nextNodeIndex: 8
@@ -208,7 +208,7 @@ nodes {
     id: "548024a1656362f820005b35"
   }
   index: 11
-  text: "{{GM}}You glance over the bay, and start shivering.{{/GM}}\n\nMy terms are not very different than what you\'re used to, Case."
+  text: "{{GM}}You glance over the bay, the probable source of your shivering.{{/GM}}\n\nMy terms are not very different than what you\'re used to, Case."
   branches {
     responseText: ""
     nextNodeIndex: 12
@@ -235,27 +235,43 @@ nodes {
     id: "5480256f656362f820005b6a"
   }
   index: 13
-  text: "{{GM}}You\'re still shivering. You can\'t seem to stop shivering."
+  text: "In due time, Case. Molly\'s right, you should get some rest."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "54c42744656362b014003a91"
+  }
+  index: 14
+  text: "{{GM}}Your body shivers in agreement, and you can\'t seem to stop agreeing.{{/GM}}"
+  branches {
+    responseText: ""
+    actions {
+      ops {
+        functionName: "Autosave Game"
+      }
+      ops {
+        functionName: "End Story With Epilogue"
+        args {
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
   nodeType: ConversationNodeType_Simple
   sourceInSceneRef {
     id: "53aba781653339281c0041c9"
-  }
-  actions {
-    ops {
-      functionName: "Autosave Game"
-    }
-    ops {
-      functionName: "End Story With Epilogue"
-      args {
-      }
-    }
   }
 }
 nodes {
   idRef {
     id: "54802373656362f820005af1"
   }
-  index: 14
+  index: 15
   text: ""
   branches {
     responseText: ""
