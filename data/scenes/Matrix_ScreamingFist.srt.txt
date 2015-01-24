@@ -1421,143 +1421,6 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: "trgr_Portal1-2"
-  events {
-    ops {
-      functionName: "On Region Enter"
-      args {
-        call_value {
-          functionName: "Get Map Item (Region)"
-          args {
-            string_value: "5480106a656362f820005a93"
-          }
-        }
-      }
-    }
-  }
-  conditions {
-    ops {
-      functionName: "Comparison (Actor)"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Active Actor"
-        }
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Teleport Actor"
-      args {
-        call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Center of Region"
-          args {
-            call_value {
-              functionName: "Get Map Item (Region)"
-              args {
-                string_value: "54a6274e6563620023005f48"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeleportMethod"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Teleport Camera To Actor"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-    }
-    ops {
-      functionName: "Play Sound"
-      args {
-        call_value {
-          functionName: "Get Map Item (Sound)"
-          args {
-            string_value: "decker"
-          }
-          args {
-            string_value: "Matrix_TeleportDoor"
-          }
-        }
-      }
-      args {
-        float_value: 1
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "54a60d7a6563620023005f46"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
   name: "trgr_ThirdWave"
   events {
     ops {
@@ -1819,6 +1682,143 @@ triggers {
   isActive: true
   idRef {
     id: "54b24b45656362880a0063e0"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "trgr_Portal1-2"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5480106a656362f820005a93"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Active Actor"
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "54a6274e6563620023005f48"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+    }
+    ops {
+      functionName: "Play Sound"
+      args {
+        call_value {
+          functionName: "Get Map Item (Sound)"
+          args {
+            string_value: "decker"
+          }
+          args {
+            string_value: "Matrix_TeleportDoor"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "54a60d7a6563620023005f46"
   }
   elseActions {
   }
@@ -2548,6 +2548,245 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "trgr_DoorWave1"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "54c2e4c6656362e4070039b4"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "DoorControlWave1"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Interrupt Team\'s Movement"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "54c2e8d1656362e4070039b7"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "trgr_DoorWave2"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "54c2e9d2656362e4070039bd"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "DoorControlWave2"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Interrupt Team\'s Movement"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Matrix"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "54c2e9ee656362e4070039be"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "trgr_SpawnICE"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "54c2ea6d656362e4070039c8"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Actor is Player Controlled"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "SpawnedICE"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Activate Actor Spawner By Tag"
+      args {
+        call_value {
+          functionName: "Get Map Item (SenseTagList)"
+          args {
+            string_value: "ICESpawnerWave"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "54c2ea76656362e4070039c9"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "54c2ea76656362e4070039c9"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Region_EscapeZone"
   position {
@@ -3123,15 +3362,103 @@ regions {
 regions {
   name: "cam_Matrix"
   position {
-    x: -112
+    x: -111
     y: -39
-    width: 62
-    height: 32
+    width: 61
+    height: 31
   }
   enabledAtStart: true
   is_camera_region: true
   idRef {
     id: "54c046b9656362f01e00555e"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "rgn_DoorRoom1"
+  position {
+    x: -110
+    y: -22
+    width: 8
+    height: 2
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "54c2e4c6656362e4070039b4"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "rgn_DoorRoom2"
+  position {
+    x: -87
+    y: -38
+    width: 3
+    height: 11
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "54c2e9d2656362e4070039bd"
   }
   highlight_color {
     r: 0
@@ -3942,11 +4269,11 @@ characters {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -110
+    x: -106
     y: 0
-    z: 4
+    z: -19
   }
-  orientation: ORIENTATION_N
+  orientation: ORIENTATION_W
   idRef {
     id: "5486a11f3261622427006994"
   }
@@ -5197,138 +5524,6 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -73
-    y: 0
-    z: -46
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c0372e656362f01e00553c"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -90
-    y: 0
-    z: -23
-  }
-  orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c03769656362f01e00553f"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -89
-    y: 0
-    z: -22
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c0376a656362f01e005540"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -90
-    y: 0
-    z: -21
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c0376b656362f01e005541"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
     x: -105
     y: 0
     z: -37
@@ -5461,144 +5656,12 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -68
-    y: 0
-    z: -46
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c03866656362f01e005547"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -70
-    y: 0
-    z: -43
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c03869656362f01e005548"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -69
-    y: 0
-    z: -14
-  }
-  orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c0387c656362f01e00554b"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -68
-    y: 0
-    z: -14
-  }
-  orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c038a7656362f01e005550"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
     x: -71
     y: 0
     z: -11
   }
   orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
+  GeneralTags: "ICESpawnerWave"
   idRef {
     id: "54c038b3656362f01e005551"
   }
@@ -5613,7 +5676,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "ICESpawnerWave"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5626,45 +5689,12 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -65
+    x: -89
     y: 0
-    z: -11
+    z: -23
   }
   orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c038b9656362f01e005552"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -91
-    y: 0
-    z: -22
-  }
-  orientation: ORIENTATION_N
-  GeneralTags: "DoorControlWave1"
+  GeneralTags: "DoorControlWave2"
   idRef {
     id: "54c038dd656362f01e005553"
   }
@@ -5679,7 +5709,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "DoorControlWave2"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5692,14 +5722,14 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -87
+    x: -90
     y: 0
-    z: -19
+    z: -23
   }
-  orientation: ORIENTATION_N
-  GeneralTags: "DoorControlWave1"
+  orientation: ORIENTATION_W
+  GeneralTags: "DoorControlWave2"
   idRef {
-    id: "54c038e3656362f01e005554"
+    id: "54c2e991656362e4070039b8"
   }
   lod: 0
   character_instance {
@@ -5712,40 +5742,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
-    enabled_at_start: false
-    pc_spawn_number: -1
-    spawn_type: SpawnType_Matrix
-    portrait {
-      filename: ""
-    }
-    dimension_name: "matrix"
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -86
-    y: 0
-    z: -18
-  }
-  orientation: ORIENTATION_E
-  GeneralTags: "DoorControlWave1"
-  idRef {
-    id: "54c038e3656362f01e005555"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Matrix/MatrixICE_white_range"
-    character_sheet_id: "IC_Lv1_White_Ranged"
-    equipment_sheet_id: "IC White Ranged Lv1 Gear"
-    character_mod {
-      archetypeName: "Guard - Seek And Destroy"
-      attitude: AttitudeAggressive
-    }
-    team_id: "LoneStar"
-    char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "DoorControlWave2"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5760,12 +5757,12 @@ characters {
   gridPoint {
     x: -85
     y: 0
-    z: -19
+    z: -20
   }
-  orientation: ORIENTATION_S
-  GeneralTags: "DoorControlWave1"
+  orientation: ORIENTATION_W
+  GeneralTags: "DoorControlWave2"
   idRef {
-    id: "54c038e3656362f01e005556"
+    id: "54c2e994656362e4070039ba"
   }
   lod: 0
   character_instance {
@@ -5778,7 +5775,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "DoorControlWave2"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5796,9 +5793,9 @@ characters {
     z: -20
   }
   orientation: ORIENTATION_W
-  GeneralTags: "DoorControlWave1"
+  GeneralTags: "DoorControlWave2"
   idRef {
-    id: "54c038e3656362f01e005557"
+    id: "54c2e997656362e4070039bc"
   }
   lod: 0
   character_instance {
@@ -5811,7 +5808,106 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "DoorControlWave2"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -66
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "ICESpawnerWave"
+  idRef {
+    id: "54c2ea2e656362e4070039bf"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "ICESpawnerWave"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -68
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "ICESpawnerWave"
+  idRef {
+    id: "54c2ea30656362e4070039c0"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "ICESpawnerWave"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -48
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "ICESpawnerWave"
+  idRef {
+    id: "54c2ea33656362e4070039c2"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "ICESpawnerWave"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5829,9 +5925,9 @@ characters {
     z: -27
   }
   orientation: ORIENTATION_N
-  GeneralTags: "DoorControlWave1"
+  GeneralTags: "ICESpawnerWave"
   idRef {
-    id: "54c03921656362f01e005558"
+    id: "54c2ea37656362e4070039c3"
   }
   lod: 0
   character_instance {
@@ -5844,7 +5940,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "ICESpawnerWave"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5857,14 +5953,14 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -48
+    x: -70
     y: 0
-    z: -25
+    z: -42
   }
-  orientation: ORIENTATION_N
-  GeneralTags: "DoorControlWave1"
+  orientation: ORIENTATION_E
+  GeneralTags: "ICESpawnerWave"
   idRef {
-    id: "54c03927656362f01e005559"
+    id: "54c2ea39656362e4070039c4"
   }
   lod: 0
   character_instance {
@@ -5877,7 +5973,7 @@ characters {
     }
     team_id: "LoneStar"
     char_name: "White IC"
-    GeneralTags: "DoorControlWave1"
+    GeneralTags: "ICESpawnerWave"
     enabled_at_start: false
     pc_spawn_number: -1
     spawn_type: SpawnType_Matrix
@@ -5885,6 +5981,332 @@ characters {
       filename: ""
     }
     dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -68
+    y: 0
+    z: -46
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "ICESpawnerWave"
+  idRef {
+    id: "54c2ea43656362e4070039c5"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "ICESpawnerWave"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -72
+    y: 0
+    z: -46
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "ICESpawnerWave"
+  idRef {
+    id: "54c2ea44656362e4070039c6"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_range"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Ranged Lv1 Gear"
+    character_mod {
+      archetypeName: "Guard - Seek And Destroy"
+      attitude: AttitudeAggressive
+    }
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "ICESpawnerWave"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -69
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "SpawnedICE"
+  idRef {
+    id: "54c2eaab656362e4070039ca"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_black_range"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
+    character_mod {
+      stats {
+        morale: 24
+        discipline: 24
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    team_id: "Shadowrunners"
+    char_name: "Mole 1.0"
+    GeneralTags: "SpawnedICE"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -69
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "SpawnedICE"
+  idRef {
+    id: "54c2eab8656362e4070039cb"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_black_range"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
+    character_mod {
+      stats {
+        morale: 24
+        discipline: 24
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    team_id: "Shadowrunners"
+    char_name: "Mole 1.0"
+    GeneralTags: "SpawnedICE"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -67
+    y: 0
+    z: -27
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "SpawnedICE"
+  idRef {
+    id: "54c2eabb656362e4070039cc"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_black_range"
+    character_sheet_id: "IC_Lv1_Black_Ranged"
+    equipment_sheet_id: "IC Black Ranged Lv1 Gear"
+    character_mod {
+      stats {
+        morale: 24
+        discipline: 24
+        awareness: 24
+        perception: 0
+        authority: 0
+        protect_tether_range: 5
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    team_id: "Shadowrunners"
+    char_name: "Mole 1.0"
+    GeneralTags: "SpawnedICE"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -89
+    y: 0
+    z: -28
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "DoorControlWave1"
+  idRef {
+    id: "54c2eb1a656362e4070039cd"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_melee"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Melee Lv1 Gear"
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "DoorControlWave1"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -89
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "DoorControlWave1"
+  idRef {
+    id: "54c2eb38656362e4070039ce"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_melee"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Melee Lv1 Gear"
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "DoorControlWave1"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -79
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "DoorControlWave2"
+  idRef {
+    id: "54c2eb6b656362e4070039d1"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_melee"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Melee Lv1 Gear"
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "DoorControlWave2"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -81
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "DoorControlWave2"
+  idRef {
+    id: "54c2eb6d656362e4070039d2"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Matrix/MatrixICE_white_melee"
+    character_sheet_id: "IC_Lv1_White_Ranged"
+    equipment_sheet_id: "IC White Melee Lv1 Gear"
+    team_id: "LoneStar"
+    char_name: "White IC"
+    GeneralTags: "DoorControlWave2"
+    enabled_at_start: false
+    pc_spawn_number: -1
+    spawn_type: SpawnType_Matrix
+    portrait {
+      filename: ""
+    }
+    dimension_name: "Matrix"
   }
 }
 variables {
