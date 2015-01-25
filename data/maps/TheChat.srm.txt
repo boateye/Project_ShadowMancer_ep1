@@ -5767,7 +5767,7 @@ props {
     isEnabled: false
     interactionRadius: 1
     transitionPoint {
-      scene_name: "TheTail"
+      scene_name: "TheChase"
       confirmation_text: ""
     }
   }
