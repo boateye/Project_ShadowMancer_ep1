@@ -67,6 +67,7 @@ regions {
     a: 1
   }
   visible_at_start: false
+  is_closet: false
   is_teleporter_region: false
   directional_light_dir {
     x: -0.4
@@ -90,6 +91,7 @@ regions {
   default_music: "Seattle-Bar13and19"
   loop_combat_music: true
   loop_default_music: true
+  no_fow_in_region: false
 }
 characters {
   name: "chars_icon_playerIcon"
@@ -372,5 +374,8 @@ use_hiring_cost_warning: true
 hiring_average_cost: 99999
 override_hiring_average_cost: true
 show_equip_screen_on_scene_load: false
+is_persistant: false
+is_persistant_has_value: false
 can_move_outside_camera_regions: true
 can_start_before_triggers: true
+can_use_team_advancement: false
