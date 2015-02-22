@@ -7062,9 +7062,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: -7
+    x: -65
     y: 0
-    z: 15
+    z: 18
   }
   orientation: ORIENTATION_S
   displayName: "prop_MatrixSpawnPoint"
@@ -16173,7 +16173,7 @@ props {
   interactionRoot {
     isEnabled: true
     interactionRadius: 1
-    interactionIcon: InteractionIcon_Generic
+    interactionIcon: InteractionIcon_Summon
   }
   lod: 0
 }

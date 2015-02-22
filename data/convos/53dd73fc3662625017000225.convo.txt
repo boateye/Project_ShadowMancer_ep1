@@ -40,7 +40,7 @@ nodes {
     id: "53dd74013662625017000232"
   }
   index: 2
-  text: "It\'s Wage. He wants to see you with a hole in your face."
+  text: "It\'s Wage. He wants to see you with a hole in your faace."
   branches {
     responseText: "Who says?"
     nextNodeIndex: 3
