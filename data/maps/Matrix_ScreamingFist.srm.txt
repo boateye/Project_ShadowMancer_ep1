@@ -16200,7 +16200,11 @@ props {
     isEnabled: true
     interactionRadius: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     interactionIcon: InteractionIcon_Generic
+=======
+    interactionIcon: InteractionIcon_Matrix
+>>>>>>> parent of fe566c1... Finished the Screaming Fist Flashback
 =======
     interactionIcon: InteractionIcon_Matrix
 >>>>>>> parent of fe566c1... Finished the Screaming Fist Flashback
