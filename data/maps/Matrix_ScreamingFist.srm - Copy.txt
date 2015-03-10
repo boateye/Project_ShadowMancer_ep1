@@ -1598,6 +1598,19 @@ props {
   lod: 0
 }
 props {
+  name: "tenements_decor_bike01"
+  gridPoint {
+    x: 61.88
+    y: 0
+    z: 1.05
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "53dec0823662625017000831"
+  }
+  lod: 0
+}
+props {
   name: "tenements_wall_edge15"
   gridPoint {
     x: 69
@@ -9252,9 +9265,9 @@ props {
 props {
   name: "system_invisible_solidProp"
   gridPoint {
-    x: 16
+    x: -47
     y: 0
-    z: -9
+    z: 1
   }
   orientation: ORIENTATION_S
   idRef {
@@ -16182,6 +16195,23 @@ props {
   displayName: "prp_SpawnICE"
   idRef {
     id: "54c2ea6d656362e4070039c8"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    interactionIcon: InteractionIcon_Generic
+=======
+    interactionIcon: InteractionIcon_Matrix
+>>>>>>> parent of fe566c1... Finished the Screaming Fist Flashback
+=======
+    interactionIcon: InteractionIcon_Matrix
+>>>>>>> parent of fe566c1... Finished the Screaming Fist Flashback
+=======
+    interactionIcon: InteractionIcon_Matrix
+>>>>>>> parent of fe566c1... Finished the Screaming Fist Flashback
   }
   lod: 0
 }

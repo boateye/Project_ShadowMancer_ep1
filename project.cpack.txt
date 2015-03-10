@@ -26,26 +26,26 @@ content_pack_dependencies {
   package_description: "Seattle Area Environments and Tilesets"
 }
 content_pack_dependencies {
-  package_id: "518d7674643431b03f0041ab"
-  package_version: "1"
-  package_name: "DeadMansSwitch"
-  package_description: "The Dead Man\'s Switch"
-}
-content_pack_dependencies {
   package_id: "5428c276376534e40f003d6d"
   package_version: "1"
   package_name: "StairsAndDoors"
   package_description: "More Stairs and Doors"
 }
 content_pack_dependencies {
-  package_id: "51a9844d633461e82400002a"
-  package_version: "Alpha 3.1.9"
-  package_name: "SNES Reboot Alpha Version"
-  package_description: "SNES Reboot Alpha Version"
+  package_id: "518d7674643431b03f0041ab"
+  package_version: "1"
+  package_name: "DeadMansSwitch"
+  package_description: "The Dead Man\'s Switch"
 }
 content_pack_dependencies {
   package_id: "53472c8f3234370824006c6a"
   package_version: "1"
   package_name: "DragonfallExtended"
   package_description: "Shadowrun: Dragonfall - Director\'s Cut"
+}
+content_pack_dependencies {
+  package_id: "51a9844d633461e82400002a"
+  package_version: "Alpha 3.1.12"
+  package_name: "SNES Reboot Alpha Version"
+  package_description: "SNES Reboot Alpha Version"
 }
